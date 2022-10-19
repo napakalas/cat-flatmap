@@ -1,0 +1,18 @@
+{
+    "id": "cat-flatmap",
+    "models": "NCBITaxon:9685",
+    "description": "description.json",
+    "properties": "properties.json",
+    "sckan-version": "staging",
+    "sources": [
+        {
+            "id": "whole-cat",
+            "href": "cat_flatmap.svg",
+            "kind": "base"
+        }
+    ],
+    "anatomicalMap": "anatomical_map.json",
+    "connectivityTerms": "connectivity_terms.json",
+    "neuronConnectivity": [
+    ]
+}
