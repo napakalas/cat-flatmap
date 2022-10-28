@@ -2403,6 +2403,15 @@
         "digestive_21-1": {
             "class": "digestive_21"
         },
+        "digestive_24-1": {
+            "class": "digestive_24"
+        },
+        "digestive_25-1": {
+            "class": "digestive_25"
+        },
+        "digestive_26-1": {
+            "class": "digestive_26"
+        },
         "digestive_3-1": {
             "class": "digestive_3"
         },
@@ -2798,6 +2807,9 @@
             "class": "respiratory_2"
         },
         "respiratory_2-2": {
+            "class": "respiratory_2"
+        },
+        "respiratory_2-3": {
             "class": "respiratory_2"
         },
         "respiratory_20-1": {
