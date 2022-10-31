@@ -615,6 +615,22 @@
         "term": "ILX:0793658",
         "name": "Proximal Stomach"
     },
+    "digestive_79": {
+        "term": "UBERON:0001245",
+        "name": "Anus"
+    },
+    "digestive_80": {
+        "term": "UBERON:0005171",
+        "name": "Hepatic Duct"
+    },
+    "digestive_81": {
+        "term": "UBERON:0001152",
+        "name": "Cystic Duct"
+    },
+    "digestive_82": {
+        "term": "UBERON:0001174",
+        "name": "Common Bile Duct"
+    },
     "reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"
@@ -654,6 +670,22 @@
     "reproductive_10": {
         "term": "UBERON:0000998",
         "name": "seminal vesicle"
+    },
+    "reproductive_11": {
+        "term": "UBERON:0000997",
+        "name": "Mammalian Vulva"
+    },
+    "reproductive_12": {
+        "term": "UBERON:0001303",
+        "name": "Left Uterine Tube"
+    },
+    "reproductive_13": {
+        "term": "UBERON:0001302",
+        "name": "Right Uterine Tube"
+    },
+    "reproductive_14": {
+        "term": "UBERON:0003984",
+        "name": "Uterine Tube Infundibulum"
     },
     "muscle_1": {
         "term": "ILX:0738319",
@@ -718,6 +750,10 @@
     "body_8": {
         "term": "UBERON:0001723",
         "name": "tongue"
+    },
+    "body_9": {
+        "term": "UBERON:0001707",
+        "name": "Nasal Cavity"
     },
     "circulatory_1": {
         "term": "UBERON:0001981",
@@ -1158,6 +1194,22 @@
     "brain_49": {
         "term": "UBERON:0001893",
         "name": "Telencephalon"
+    },
+    "brain_50": {
+        "term": "UBERON:0002631",
+        "name": "Cerebral Crus"
+    },
+    "brain_51": {
+        "term": "UBERON:0000959",
+        "name": "Optic Chiasm"
+    },
+    "brain_52": {
+        "term": "ILX:0741361",
+        "name": "Pineal Gland"
+    },
+    "brain_53": {
+        "term": "UBERON:0002623",
+        "name": "Cerebral Peduncle"
     },
     "bolser_2": {
         "term": "ILX:0738309",
