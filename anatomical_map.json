@@ -975,10 +975,6 @@
         "term": "UBERON:0011776",
         "name": "Dorsal commissural nucleus"
     },
-    "spinal_52": {
-        "term": "UBERON:0011776",
-        "name": "Dorsal commissural nucleus"
-    },
     "spinal_53": {
         "term": "UBERON:0002240",
         "name": "spinal cord"
@@ -1215,7 +1211,7 @@
         "term": "ILX:0738309",
         "name": "Internal branch of inferior laryngeal nerve"
     },
-    "bolser_3": {
+    "recurrent_laryngeal_17": {
         "term": "ILX:0738308",
         "name": "External branch of inferior laryngeal nerve"
     },

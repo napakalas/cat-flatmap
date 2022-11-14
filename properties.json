@@ -1526,10 +1526,9 @@
             "models": "ILX:0739297",
             "name": "sixth lumbar sympathetic ganglion"
         },
-        "S66_S1": {
+        "S46_S1": {
             "models": "ILX:0789109",
-            "name": "First sacral ganglion",
-            "comment": "Id should be S46_S1"
+            "name": "First sacral ganglion"
         },
         "S46_S2": {
             "models": "ILX:0789655",
@@ -1926,19 +1925,19 @@
             "class": "spinal_51"
         },
         "S52_L1": {
-            "class": "spinal_52"
+            "class": "spinal_51"
         },
         "S52_L2": {
-            "class": "spinal_52"
+            "class": "spinal_51"
         },
         "S52_T11": {
-            "class": "spinal_52"
+            "class": "spinal_51"
         },
         "S52_T12": {
-            "class": "spinal_52"
+            "class": "spinal_51"
         },
         "S52_T13": {
-            "class": "spinal_52"
+            "class": "spinal_51"
         },
         "ganglion_6-1": {
             "class": "ganglion_6"
@@ -2103,6 +2102,9 @@
             "class": "brain_19"
         },
         "brain_2-1": {
+            "class": "brain_2"
+        },
+        "brain_2-2": {
             "class": "brain_2"
         },
         "brain_20-1": {
@@ -2688,12 +2690,12 @@
         "endocrine_6_3": {
             "class": "endocrine_6"
         },
-        "keast_1-1": {
+        "bladder_nerve": {
             "class": "keast_1",
             "type": "nerve",
             "models": "ILX:0793559"
         },
-        "keast_2-1": {
+        "pudendal_n": {
             "class": "keast_2",
             "type": "nerve",
             "models": "UBERON:0011390"
@@ -2701,12 +2703,12 @@
         "ganglion_4-1": {
             "class": "ganglion_4"
         },
-        "keast_4-1": {
+        "pelvic_splanchnic": {
             "class": "keast_4",
             "type": "nerve",
             "models": "UBERON:0018675"
         },
-        "keast_5-1": {
+        "hypogastric": {
             "class": "keast_5",
             "type": "nerve",
             "models": "UBERON:0005303"
@@ -2714,7 +2716,7 @@
         "ganglion_5-1": {
             "class": "ganglion_5"
         },
-        "keast_7-1": {
+        "lumbar_splanchnic": {
             "class": "keast_7",
             "type": "nerve",
             "models": "UBERON:0018683"
@@ -4286,7 +4288,7 @@
             "type": "nerve",
             "models": "FMA:6233"
         },
-        "bolser_101": {
+        "phrenic_n": {
             "type": "nerve",
             "models": "UBERON:0001884"
         },
@@ -4298,31 +4300,31 @@
             "type": "nerve",
             "models": "ILX:0738315"
         },
-        "bolser_104": {
+        "GGN": {
             "type": "nerve",
             "models": "ILX:0738293"
         },
-        "bolser_105": {
+        "AADN": {
             "type": "nerve",
             "models": "ILX:0738312"
         },
-        "bolser_106": {
+        "glossopharyngeal_1": {
             "type": "nerve",
             "models": "UBERON:0001649"
         },
-        "bolser_107": {
+        "glossopharyngeal_3": {
             "type": "nerve",
             "models": "UBERON:0009009"
         },
-        "bolser_108": {
+        "glossopharyngeal_2": {
             "type": "nerve",
             "models": "ILX:0738313"
         },
-        "bolser_109": {
+        "recurrent_laryngeal_16": {
             "type": "nerve",
-            "model-unknown": ""
+            "models": "ILX:0738309"
         },
-        "bolser_110": {
+        "recurrent_laryngeal_17": {
             "type": "nerve",
             "model-unknown": ""
         },
@@ -4342,7 +4344,7 @@
             "type": "nerve",
             "model-unknown": ""
         },
-        "bolser_115": {
+        "glossopharyngeal_4": {
             "type": "nerve",
             "models": "ILX:0789339"
         },
@@ -4409,95 +4411,342 @@
             "id": "neural",
             "centrelines": [
                 {
-                    "id": "n_1",
+                    "id": "SCG-MCG_sympathetic_cord",
+                    "models": "ILX:0738292",
                     "connects": [
-                        "brain_44-1",
-                        "point_1"
+                        "ganglion_3-1",
+                        "ganglion_9-1"
                     ]
                 },
                 {
-                    "id": "n_2",
+                    "id": "MCG-ICG_sympathetic_cord",
+                    "models": "ILX:0738290",
+                    "connects": [
+                        "ganglion_9-1",
+                        "ganglion_10-1"
+                    ]
+                },
+                {
+                    "id": "ICG-T1_sympathetic_cord",
+                    "models": "ILX:0738291",
+                    "connects": [
+                        "ganglion_10-1",
+                        "S46_T1"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T1-T2",
+                    "connects": [
+                        "S46_T1",
+                        "S46_T2"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T2-T3",
+                    "connects": [
+                        "S46_T2",
+                        "S46_T3"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T3-T4",
+                    "connects": [
+                        "S46_T3",
+                        "S46_T4"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T4-T5",
+                    "connects": [
+                        "S46_T4",
+                        "S46_T5"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T5-T6",
+                    "connects": [
+                        "S46_T5",
+                        "S46_T6"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T6-T7",
+                    "connects": [
+                        "S46_T6",
+                        "S46_T7"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T7-T8",
+                    "connects": [
+                        "S46_T7",
+                        "S46_T8"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T8-T9",
+                    "connects": [
+                        "S46_T8",
+                        "S46_T9"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T9-T10",
+                    "connects": [
+                        "S46_T9",
+                        "S46_T10"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T10-T11",
+                    "connects": [
+                        "S46_T10",
+                        "S46_T11"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T11-T12",
+                    "connects": [
+                        "S46_T11",
+                        "S46_T12"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T12-T13",
+                    "models": "ILX:0777086",
+                    "connects": [
+                        "S46_T12",
+                        "S46_T13"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_T13-L1",
+                    "models": "ILX:0777087",
+                    "connects": [
+                        "S46_T13",
+                        "S46_L1"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_L1-L2",
+                    "models": "ILX:0777088",
+                    "connects": [
+                        "S46_L1",
+                        "S46_L2"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_L2-L3",
+                    "models": "ILX:0777089",
+                    "connects": [
+                        "S46_L2",
+                        "S46_L3"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_L3-L4",
+                    "models": "ILX:0777090",
+                    "connects": [
+                        "S46_L3",
+                        "S46_L4"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_L4-L5",
+                    "models": "ILX:0777091",
+                    "connects": [
+                        "S46_L4",
+                        "S46_L5"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_L5-L6",
+                    "models": "ILX:0777092",
+                    "connects": [
+                        "S46_L5",
+                        "S46_L6"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_L6-S1",
+                    "models": "ILX:0777093",
+                    "connects": [
+                        "S46_L6",
+                        "S46_S1"
+                    ]
+                },
+                {
+                    "id": "sympathetic_trunk_S1-S2",
+                    "connects": [
+                        "S46_S1",
+                        "S46_S2"
+                    ]
+                },
+                {
+                    "id": "vagus_n-1",
                     "connects": [
                         "point_1",
-                        "vagus_n-1"
+                        "ganglion_1-1"
                     ],
                     "contained-in": [
-                        "point_1"
+                        "vagus"
                     ]
                 },
                 {
-                    "id": "n_3",
-                    "connects": [
-                        "brain_34-1",
-                        "point_1"
-                    ]
-                },
-                {
-                    "id": "n_4",
-                    "connects": [
-                        "brain_33-1",
-                        "point_1"
-                    ]
-                },
-                {
-                    "id": "n_6",
-                    "models": "FMA:6231",
+                    "id": "vagus_n-2",
                     "connects": [
                         "ganglion_1-1",
-                        "label_1-1"
+                        "ganglion_2-1"
                     ]
                 },
                 {
-                    "id": "n_6_X",
+                    "id": "vagus_n-3",
+                    "connects": [
+                        "ganglion_2-1",
+                        "vagus_point_1"
+                    ]
+                },
+                {
+                    "id": "vagus_n-4",
+                    "connects": [
+                        "vagus_point_1",
+                        "vagus_point_2"
+                    ]
+                },
+                {
+                    "id": "vagus_n-5",
+                    "connects": [
+                        "vagus_point_2",
+                        "vagus_point_3"
+                    ]
+                },
+                {
+                    "id": "vagus_n-6",
+                    "connects": [
+                        "vagus_point_3",
+                        "vagus_point_4"
+                    ]
+                },
+                {
+                    "id": "vagus_n-7",
+                    "connects": [
+                        "vagus_point_4",
+                        "vagus_point_5"
+                    ]
+                },
+                {
+                    "id": "vagus_n-8",
+                    "connects": [
+                        "vagus_point_5",
+                        "vagus_point_6"
+                    ]
+                },
+                {
+                    "id": "vagus_n-9",
+                    "connects": [
+                        "vagus_point_6",
+                        "vagus_point_7"
+                    ]
+                },
+                {
+                    "id": "vagus_n-10",
+                    "connects": [
+                        "vagus_point_7",
+                        "vagus_point_8"
+                    ]
+                },
+                {
+                    "id": "vagus_n-11",
+                    "connects": [
+                        "vagus_point_8",
+                        "vagus_point_9"
+                    ]
+                },
+                {
+                    "id": "vagus_n-12",
+                    "connects": [
+                        "vagus_point_9",
+                        "vagus_point_10"
+                    ]
+                },
+                {
+                    "id": "vagus_n-13",
+                    "connects": [
+                        "vagus_point_10",
+                        "vagus_point_11"
+                    ]
+                },
+                {
+                    "id": "vagus_n-14",
+                    "connects": [
+                        "vagus_point_11",
+                        "vagus_point_12"
+                    ]
+                },
+                {
+                    "id": "vagus_n-15",
+                    "connects": [
+                        "vagus_point_12",
+                        "vagus_point_13"
+                    ]
+                },
+                {
+                    "id": "gloss_vagus_comm_1",
                     "models": "FMA:6233",
                     "connects": [
                         "ganglion_1-1",
-                        "point_3"
+                        "gloss_vagus_comm_point"
                     ],
                     "contained-in": [
                         "vagus_14"
                     ]
                 },
                 {
-                    "id": "n_7",
-                    "models": "FMA:6232",
+                    "id": "meningeal_vagus_1",
+                    "models": "FMA:6231",
                     "connects": [
-                        "ganglion_2-1",
-                        "point_10"
+                        "ganglion_1-1",
+                        "label_1-1"
                     ],
                     "contained-in": [
-                        "vagus_1",
-                        "point_6",
-                        "point_8"
+                        "vagus_11"
                     ]
                 },
                 {
-                    "id": "n_8",
+                    "id": "auricular_vagus_1",
+                    "models": "FMA:6232",
+                    "connects": [
+                        "ganglion_2-1",
+                        "AVN_point_1"
+                    ]
+                },
+                {
+                    "id": "auricular_vagus_2",
+                    "models": "ILX:0786624",
+                    "connects": [
+                        "AVN_point_2",
+                        "AVN_point_4"
+                    ],
+                    "contained-in": [
+                        "vagus_2"
+                    ]
+                },
+                {
+                    "id": "auricular_vagus_3",
                     "models": "ILX:0791151",
                     "connects": [
-                        "point_8",
-                        "point_9"
+                        "AVN_point_3",
+                        "AVN_point_5"
                     ],
                     "contained-in": [
                         "vagus_3"
                     ]
                 },
                 {
-                    "id": "n_9",
-                    "models": "ILX:0785937",
-                    "connects": [
-                        "point_10",
-                        "label_3-1"
-                    ],
-                    "contained-in": [
-                        "vagus_5"
-                    ]
-                },
-                {
-                    "id": "n_10",
+                    "id": "auricular_vagus_4",
                     "models": "ILX:0784868",
                     "connects": [
-                        "point_10",
+                        "AVN_point_1",
                         "label_2-1"
                     ],
                     "contained-in": [
@@ -4505,10 +4754,21 @@
                     ]
                 },
                 {
-                    "id": "n_11",
+                    "id": "auricular_vagus_5",
+                    "models": "ILX:0785937",
+                    "connects": [
+                        "AVN_point_1",
+                        "label_3-1"
+                    ],
+                    "contained-in": [
+                        "vagus_5"
+                    ]
+                },
+                {
+                    "id": "auricular_vagus_6",
                     "models": "ILX:0788968",
                     "connects": [
-                        "point_10",
+                        "AVN_point_1",
                         "label_4-1"
                     ],
                     "contained-in": [
@@ -4516,527 +4776,36 @@
                     ]
                 },
                 {
-                    "id": "n_12",
-                    "models": "ILX:0786624",
+                    "id": "hypoglossal_1",
+                    "models": "UBERON:0001650",
                     "connects": [
-                        "point_6",
-                        "point_7"
+                        "plexus_7-1",
+                        "HPG_point_1"
                     ],
                     "contained-in": [
-                        "vagus_2"
+                        "bolser_102"
                     ]
                 },
                 {
-                    "id": "n_13",
-                    "models": "UBERON:0000929",
+                    "id": "hypoglossal_2",
                     "connects": [
-                        "point_11",
-                        "point_13"
+                        "HPG_point_1",
+                        "HPG_point_2"
+                    ]
+                },
+                {
+                    "id": "hypoglossal_3",
+                    "models": "ILX:0738315",
+                    "connects": [
+                        "HPG_point_1",
+                        "HPG_point_3"
                     ],
                     "contained-in": [
-                        "pharyngeal_vagus_1",
-                        "point_12"
+                        "bolser_103"
                     ]
                 },
                 {
-                    "id": "n_14",
-                    "models": "ILX:0791434",
-                    "connects": [
-                        "point_13",
-                        "label_5-1"
-                    ],
-                    "contained-in": [
-                        "pharyngeal_vagus_2",
-                        "plexus_2-1"
-                    ]
-                },
-                {
-                    "id": "n_15",
-                    "models": "ILX:0790524",
-                    "connects": [
-                        "point_13",
-                        "label_6-1"
-                    ],
-                    "contained-in": [
-                        "pharyngeal_vagus_3",
-                        "plexus_2-1"
-                    ]
-                },
-                {
-                    "id": "n_16",
-                    "connects": [
-                        "point_14",
-                        "cardio_36-1"
-                    ],
-                    "contained-in": [
-                        "vagus_8",
-                        "point_15"
-                    ]
-                },
-                {
-                    "id": "n_17",
-                    "models": "UBERON:0011326",
-                    "connects": [
-                        "point_16",
-                        "point_18"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_1",
-                        "point_17"
-                    ]
-                },
-                {
-                    "id": "n_18",
-                    "models": "ILX:0793561",
-                    "connects": [
-                        "point_18",
-                        "point_19"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_2"
-                    ]
-                },
-                {
-                    "id": "n_19",
-                    "models": "ILX:0789613",
-                    "connects": [
-                        "point_19",
-                        "point_20"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_5"
-                    ]
-                },
-                {
-                    "id": "n_20",
-                    "models": "ILX:0790363",
-                    "connects": [
-                        "point_20",
-                        "label_8-1"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_10"
-                    ]
-                },
-                {
-                    "id": "n_21",
-                    "models": "ILX:0792008",
-                    "connects": [
-                        "point_20",
-                        "respiratory_11-1"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_11"
-                    ]
-                },
-                {
-                    "id": "n_22",
-                    "models": "ILX:0789391",
-                    "connects": [
-                        "point_20",
-                        "label_7-1"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_13"
-                    ]
-                },
-                {
-                    "id": "n_23",
-                    "models": "ILX:0790501",
-                    "connects": [
-                        "point_20",
-                        "respiratory_5-1"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_12"
-                    ]
-                },
-                {
-                    "id": "n_24",
-                    "models": "ILX:0785556",
-                    "connects": [
-                        "point_19",
-                        "point_21"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_4"
-                    ]
-                },
-                {
-                    "id": "n_25",
-                    "models": "ILX:0787329",
-                    "connects": [
-                        "point_21",
-                        "label_10-1"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_6"
-                    ]
-                },
-                {
-                    "id": "n_26",
-                    "models": "ILX:0785199",
-                    "connects": [
-                        "point_21",
-                        "label_11-1"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_7"
-                    ]
-                },
-                {
-                    "id": "n_27",
-                    "models": "ILX:0785951",
-                    "connects": [
-                        "point_21",
-                        "label_12-1"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_8"
-                    ]
-                },
-                {
-                    "id": "n_28",
-                    "models": "ILX:0787299",
-                    "connects": [
-                        "point_21",
-                        "point_37"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_9"
-                    ]
-                },
-                {
-                    "id": "n_29",
-                    "models": "ILX:0793560",
-                    "connects": [
-                        "point_18",
-                        "external_laryngeal_n_branching_point"
-                    ],
-                    "contained-in": [
-                        "superior_laryngeal_3"
-                    ]
-                },
-                {
-                    "id": "n_30",
-                    "models": "ILX:0786680",
-                    "connects": [
-                        "point_22",
-                        "point_24"
-                    ],
-                    "contained-in": [
-                        "cardiac_vagus_1",
-                        "point_23"
-                    ]
-                },
-                {
-                    "id": "n_31",
-                    "models": "ILX:0791784",
-                    "connects": [
-                        "point_24",
-                        "plexus_3-1"
-                    ],
-                    "contained-in": [
-                        "cardiac_vagus_2"
-                    ]
-                },
-                {
-                    "id": "n_32",
-                    "models": "ILX:0793041",
-                    "connects": [
-                        "point_24",
-                        "point_25"
-                    ],
-                    "contained-in": [
-                        "cardiac_vagus_3"
-                    ]
-                },
-                {
-                    "id": "n_33",
-                    "models": "ILX:0788259",
-                    "connects": [
-                        "point_25",
-                        "plexus_3-1"
-                    ],
-                    "contained-in": [
-                        "cardiac_vagus_5"
-                    ]
-                },
-                {
-                    "id": "n_34",
-                    "models": "ILX:0784874",
-                    "connects": [
-                        "point_25",
-                        "plexus_3-1"
-                    ],
-                    "contained-in": [
-                        "cardiac_vagus_6"
-                    ]
-                },
-                {
-                    "id": "n_35",
-                    "models": "ILX:0785405",
-                    "connects": [
-                        "point_24",
-                        "plexus_3-1"
-                    ],
-                    "contained-in": [
-                        "cardiac_vagus_4"
-                    ]
-                },
-                {
-                    "id": "n_36",
-                    "models": "UBERON:0003716",
-                    "connects": [
-                        "point_26",
-                        "point_28"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_1",
-                        "point_27"
-                    ]
-                },
-                {
-                    "id": "n_37",
-                    "models": "ILX:0787615",
-                    "connects": [
-                        "point_28",
-                        "label_9-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_2"
-                    ]
-                },
-                {
-                    "id": "n_38",
-                    "models": "ILX:0791463",
-                    "connects": [
-                        "point_28",
-                        "point_29"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_3"
-                    ]
-                },
-                {
-                    "id": "n_39",
-                    "models": "ILX:0791258",
-                    "connects": [
-                        "point_29",
-                        "label_15-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_8"
-                    ]
-                },
-                {
-                    "id": "n_40",
-                    "models": "ILX:0787701",
-                    "connects": [
-                        "point_29",
-                        "label_16-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_9"
-                    ]
-                },
-                {
-                    "id": "n_41",
-                    "models": "ILX:0787600",
-                    "connects": [
-                        "point_29",
-                        "label_17-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_10"
-                    ]
-                },
-                {
-                    "id": "n_42",
-                    "models": "ILX:0788680",
-                    "connects": [
-                        "point_29",
-                        "label_18-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_11"
-                    ]
-                },
-                {
-                    "id": "n_43",
-                    "models": "ILX:0791372",
-                    "connects": [
-                        "point_29",
-                        "label_19-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_12"
-                    ]
-                },
-                {
-                    "id": "n_44",
-                    "models": "ILX:0784775",
-                    "connects": [
-                        "point_29",
-                        "label_20-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_13"
-                    ]
-                },
-                {
-                    "id": "n_45",
-                    "models": "ILX:0788061",
-                    "connects": [
-                        "point_29",
-                        "label_21-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_14"
-                    ]
-                },
-                {
-                    "id": "n_46",
-                    "models": "ILX:0787830",
-                    "connects": [
-                        "point_29",
-                        "label_22-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_15"
-                    ]
-                },
-                {
-                    "id": "n_47",
-                    "models": "ILX:0787303",
-                    "connects": [
-                        "point_28",
-                        "label_13-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_4"
-                    ]
-                },
-                {
-                    "id": "n_48",
-                    "models": "ILX:0792328",
-                    "connects": [
-                        "point_28",
-                        "respiratory_8-1"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_5"
-                    ]
-                },
-                {
-                    "id": "n_49",
-                    "models": "ILX:0793070",
-                    "connects": [
-                        "point_28",
-                        "respiratory_11-2"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_6"
-                    ]
-                },
-                {
-                    "id": "n_50",
-                    "models": "ILX:0786150",
-                    "connects": [
-                        "point_28",
-                        "point_38"
-                    ],
-                    "contained-in": [
-                        "recurrent_laryngeal_7"
-                    ]
-                },
-                {
-                    "id": "n_51",
-                    "models": "ILX:0789095",
-                    "connects": [
-                        "point_30",
-                        "plexus_4-1"
-                    ],
-                    "contained-in": [
-                        "vagus_12"
-                    ]
-                },
-                {
-                    "id": "n_52",
-                    "models": "ILX:0786619",
-                    "connects": [
-                        "point_31",
-                        "respiratory_17-1"
-                    ],
-                    "contained-in": [
-                        "vagus_9"
-                    ]
-                },
-                {
-                    "id": "n_53",
-                    "models": "ILX:0790803",
-                    "connects": [
-                        "point_32",
-                        "point_33"
-                    ],
-                    "contained-in": [
-                        "esophageal_vagus_1"
-                    ]
-                },
-                {
-                    "id": "n_54",
-                    "models": "ILX:0785247",
-                    "connects": [
-                        "point_33",
-                        "plexus_5-1"
-                    ],
-                    "contained-in": [
-                        "esophageal_vagus_2"
-                    ]
-                },
-                {
-                    "id": "n_55",
-                    "models": "ILX:0790681",
-                    "connects": [
-                        "point_33",
-                        "plexus_5-1"
-                    ],
-                    "contained-in": [
-                        "esophageal_vagus_3"
-                    ]
-                },
-                {
-                    "id": "n_56",
-                    "models": "FMA:77213",
-                    "connects": [
-                        "point_34",
-                        "digestive_9-1"
-                    ]
-                },
-                {
-                    "id": "n_57",
-                    "models": "ILX:0791632",
-                    "connects": [
-                        "point_35",
-                        "plexus_6-1"
-                    ],
-                    "contained-in": [
-                        "vagus_10"
-                    ]
-                },
-                {
-                    "id": "n_58",
-                    "models": "ILX:0791071",
-                    "connects": [
-                        "point_36",
-                        "urinary_13-1"
-                    ],
-                    "contained-in": [
-                        "vagus_13"
-                    ]
-                },
-                {
-                    "id": "n_59",
+                    "id": "ECN_1",
                     "connects": [
                         "ganglion_3-1",
                         "plexus_1-1"
@@ -5046,67 +4815,202 @@
                     ]
                 },
                 {
-                    "id": "n_60",
+                    "id": "vagus_carotid_1",
+                    "models": "ILX:0786059",
                     "connects": [
-                        "ganglion_3-1",
-                        "point_12"
-                    ]
-                },
-                {
-                    "id": "n_61",
-                    "connects": [
-                        "ganglion_3-1",
-                        "point_15"
-                    ]
-                },
-                {
-                    "id": "n_62",
-                    "connects": [
-                        "ganglion_3-1",
-                        "point_17"
-                    ]
-                },
-                {
-                    "id": "n_63",
-                    "connects": [
-                        "ganglion_3-1",
-                        "point_23"
-                    ]
-                },
-                {
-                    "id": "n_64",
-                    "connects": [
-                        "ganglion_3-1",
-                        "point_27"
-                    ]
-                },
-                {
-                    "id": "n_65",
-                    "models": "ILX:0788330",
-                    "connects": [
-                        "external_laryngeal_n_branching_point",
-                        "label_14-1"
+                        "vagus_point_2",
+                        "VC_point_2"
                     ],
                     "contained-in": [
-                        "superior_laryngeal_14"
+                        "VC_point_1",
+                        "vagus_8"
                     ]
                 },
                 {
-                    "id": "n_66",
-                    "models": "ILX:0790205",
+                    "id": "PVN_1",
+                    "models": "UBERON:0000929",
                     "connects": [
-                        "external_laryngeal_n_branching_point",
-                        "label_15-1"
+                        "vagus_point_1",
+                        "PVN_point_2"
                     ],
                     "contained-in": [
-                        "superior_laryngeal_15"
+                        "PVN_point_1",
+                        "pharyngeal_vagus_1"
                     ]
                 },
                 {
-                    "id": "n_67",
+                    "id": "PVN_2",
+                    "models": "ILX:0791434",
+                    "connects": [
+                        "PVN_point_2",
+                        "label_5-1"
+                    ],
+                    "contained-in": [
+                        "pharyngeal_vagus_2"
+                    ]
+                },
+                {
+                    "id": "PVN_3",
+                    "models": "ILX:0790524",
+                    "connects": [
+                        "PVN_point_2",
+                        "label_6-1"
+                    ],
+                    "contained-in": [
+                        "pharyngeal_vagus_3"
+                    ]
+                },
+                {
+                    "id": "SLN_1",
+                    "models": "UBERON:0011326",
+                    "connects": [
+                        "vagus_point_3",
+                        "SLN_point_2"
+                    ],
+                    "contained-in": [
+                        "SLN_point_1",
+                        "superior_laryngeal_1"
+                    ]
+                },
+                {
+                    "id": "SLN_2",
+                    "connects": [
+                        "SLN_point_2",
+                        "SLN_point_3"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_2"
+                    ]
+                },
+                {
+                    "id": "SLN_3",
+                    "connects": [
+                        "SLN_point_2",
+                        "SLN_point_4"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_3"
+                    ]
+                },
+                {
+                    "id": "SLN_4",
+                    "connects": [
+                        "SLN_point_3",
+                        "SLN_point_5"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_5"
+                    ]
+                },
+                {
+                    "id": "SLN_5",
+                    "connects": [
+                        "SLN_point_3",
+                        "SLN_point_6"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_4"
+                    ]
+                },
+                {
+                    "id": "SLN_6",
+                    "connects": [
+                        "SLN_point_5",
+                        "label_7-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_13"
+                    ]
+                },
+                {
+                    "id": "SLN_7",
+                    "connects": [
+                        "SLN_point_5",
+                        "label_8-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_10"
+                    ]
+                },
+                {
+                    "id": "SLN_8",
+                    "connects": [
+                        "SLN_point_5",
+                        "respiratory_11-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_11"
+                    ]
+                },
+                {
+                    "id": "SLN_9",
+                    "connects": [
+                        "SLN_point_5",
+                        "respiratory_5-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_12"
+                    ]
+                },
+                {
+                    "id": "SLN_10",
+                    "connects": [
+                        "SLN_point_6",
+                        "respiratory_5-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_17"
+                    ]
+                },
+                {
+                    "id": "SLN_11",
+                    "models": "ILX:0787329",
+                    "connects": [
+                        "SLN_point_6",
+                        "label_10-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_6"
+                    ]
+                },
+                {
+                    "id": "SLN_12",
+                    "models": "ILX:0785199",
+                    "connects": [
+                        "SLN_point_6",
+                        "label_11-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_7"
+                    ]
+                },
+                {
+                    "id": "SLN_13",
+                    "models": "ILX:0785951",
+                    "connects": [
+                        "SLN_point_6",
+                        "label_12-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_8"
+                    ]
+                },
+                {
+                    "id": "SLN_14",
+                    "models": "ILX:0787299",
+                    "connects": [
+                        "SLN_point_6",
+                        "SLN_point_7"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_9"
+                    ]
+                },
+                {
+                    "id": "SLN_15",
                     "models": "ILX:0788232",
                     "connects": [
-                        "external_laryngeal_n_branching_point",
+                        "SLN_point_4",
                         "plexus_2-1"
                     ],
                     "contained-in": [
@@ -5114,98 +5018,615 @@
                     ]
                 },
                 {
-                    "id": "n_68",
+                    "id": "SLN_16",
+                    "connects": [
+                        "SLN_point_4",
+                        "respiratory_11-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_19"
+                    ]
+                },
+                {
+                    "id": "SLN_17",
+                    "models": "ILX:0790205",
+                    "connects": [
+                        "SLN_point_4",
+                        "label_15-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_15"
+                    ]
+                },
+                {
+                    "id": "SLN_18",
+                    "models": "ILX:0788330",
+                    "connects": [
+                        "SLN_point_4",
+                        "label_14-1"
+                    ],
+                    "contained-in": [
+                        "superior_laryngeal_14"
+                    ]
+                },
+                {
+                    "id": "SLN_19",
+                    "connects": [
+                        "SLN_point_4",
+                        "respiratory_5-1"
+                    ],
+                    "contained-in":[
+                        "superior_laryngeal_20"
+                    ]
+                },
+                {
+                    "id": "SLN_20",
                     "models": "ILX:0786237",
                     "connects": [
-                        "external_laryngeal_n_branching_point",
-                        "point_41"
+                        "SLN_point_4",
+                        "SLN_point_8"
                     ],
                     "contained-in": [
                         "superior_laryngeal_18"
                     ]
                 },
                 {
-                    "id": "n_69",
+                    "id": "CVN_1",
+                    "models": "ILX:0786680",
                     "connects": [
-                        "brain_13-1",
-                        "brain_14-1"
+                        "vagus_point_4",
+                        "CVN_point_1"
                     ],
                     "contained-in": [
-                        "brain_26-1",
-                        "brain_25-1"
+                        "cardiac_vagus_1",
+                        "CVN_point_3"
                     ]
                 },
                 {
-                    "id": "n_70",
+                    "id": "CVN_2",
+                    "models": "ILX:0793041",
                     "connects": [
-                        "brain_13-1",
-                        "brain_19-1"
+                        "CVN_point_1",
+                        "CVN_point_2"
                     ],
                     "contained-in": [
-                        "brain_26-1",
-                        "brain_25-1"
+                        "cardiac_vagus_3"
                     ]
                 },
                 {
-                    "id": "n_71",
+                    "id": "CVN_3",
+                    "models": "ILX:0788259",
                     "connects": [
-                        "brain_13-1",
-                        "brain_17-1"
+                        "CVN_point_2",
+                        "plexus_3-1"
                     ],
                     "contained-in": [
-                        "brain_26-1",
-                        "brain_25-1"
+                        "cardiac_vagus_5"
                     ]
                 },
                 {
-                    "id": "n_72",
+                    "id": "CVN_4",
+                    "models": "ILX:0784874",
                     "connects": [
-                        "brain_13-1",
-                        "brain_20-1"
+                        "CVN_point_2",
+                        "plexus_3-1"
                     ],
                     "contained-in": [
-                        "brain_26-1",
-                        "brain_25-1"
+                        "cardiac_vagus_6"
                     ]
                 },
                 {
-                    "id": "n_73",
+                    "id": "CVN_5",
+                    "models": "ILX:0791784",
                     "connects": [
-                        "brain_13-1",
-                        "brain_15-1"
+                        "CVN_point_1",
+                        "plexus_3-1"
                     ],
                     "contained-in": [
-                        "brain_26-1",
-                        "brain_25-1"
+                        "cardiac_vagus_2"
                     ]
                 },
                 {
-                    "id": "n_74",
+                    "id": "CVN_6",
+                    "models": "ILX:0785405",
                     "connects": [
-                        "brain_13-1",
-                        "brain_16-1"
+                        "CVN_point_1",
+                        "plexus_3-1"
                     ],
                     "contained-in": [
-                        "brain_26-1",
-                        "brain_25-1"
+                        "cardiac_vagus_4"
                     ]
                 },
                 {
-                    "id": "n_75",
+                    "id": "RLN_1",
+                    "models": "UBERON:0003716",
                     "connects": [
-                        "brain_13-1",
-                        "brain_18-1"
+                        "vagus_point_5",
+                        "RLN_point_1"
                     ],
                     "contained-in": [
-                        "brain_26-1",
-                        "brain_25-1"
+                        "recurrent_laryngeal_1",
+                        "RLN_point_2"
                     ]
                 },
                 {
-                    "id": "n_76",
+                    "id": "RLN_2",
+                    "models": "ILX:0787615",
                     "connects": [
-                        "point_47",
-                        "ganglion_19-1"
+                        "RLN_point_1",
+                        "label_9-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_2"
+                    ]
+                },
+                {
+                    "id": "RLN_3",
+                    "models": "ILX:0791463",
+                    "connects": [
+                        "RLN_point_1",
+                        "RLN_point_3"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_3"
+                    ]
+                },
+                {
+                    "id": "RLN_4",
+                    "models": "ILX:0791258",
+                    "connects": [
+                        "RLN_point_3",
+                        "label_15-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_8"
+                    ]
+                },
+                {
+                    "id": "RLN_5",
+                    "models": "ILX:0787701",
+                    "connects": [
+                        "RLN_point_3",
+                        "label_16-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_9"
+                    ]
+                },
+                {
+                    "id": "RLN_6",
+                    "models": "ILX:0787600",
+                    "connects": [
+                        "RLN_point_3",
+                        "label_17-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_10"
+                    ]
+                },
+                {
+                    "id": "RLN_7",
+                    "models": "ILX:0788680",
+                    "connects": [
+                        "RLN_point_3",
+                        "label_18-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_11"
+                    ]
+                },
+                {
+                    "id": "RLN_8",
+                    "models": "ILX:0791372",
+                    "connects": [
+                        "RLN_point_3",
+                        "label_19-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_12"
+                    ]
+                },
+                {
+                    "id": "RLN_9",
+                    "models": "ILX:0784775",
+                    "connects": [
+                        "RLN_point_3",
+                        "label_20-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_13"
+                    ]
+                },
+                {
+                    "id": "RLN_10",
+                    "models": "ILX:0788061",
+                    "connects": [
+                        "RLN_point_3",
+                        "label_21-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_14"
+                    ]
+                },
+                {
+                    "id": "RLN_11",
+                    "models": "ILX:0787830",
+                    "connects": [
+                        "RLN_point_3",
+                        "label_22-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_15"
+                    ]
+                },
+                {
+                    "id": "RLN_12",
+                    "models": "ILX:0786150",
+                    "connects": [
+                        "RLN_point_1",
+                        "RLN_point_4"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_7"
+                    ]
+                },
+                {
+                    "id": "RLN_13",
+                    "models": "ILX:0787303",
+                    "connects": [
+                        "RLN_point_1",
+                        "label_13-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_4"
+                    ]
+                },
+                {
+                    "id": "RLN_14",
+                    "models": "ILX:0792328",
+                    "connects": [
+                        "RLN_point_1",
+                        "respiratory_8-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_5"
+                    ]
+                },
+                {
+                    "id": "RLN_15",
+                    "models": "ILX:0793070",
+                    "connects": [
+                        "RLN_point_1",
+                        "respiratory_11-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_6"
+                    ]
+                },
+                {
+                    "id": "RLN_16",
+                    "models": "ILX:0738309",
+                    "connects": [
+                        "RLN_point_1",
+                        "respiratory_11-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_16"
+                    ]
+                },
+                {
+                    "id": "RLN_17",
+                    "connects": [
+                        "RLN_point_1",
+                        "respiratory_11-1"
+                    ],
+                    "contained-in": [
+                        "recurrent_laryngeal_17"
+                    ]
+                },
+                {
+                    "id": "GLN_1",
+                    "connects": [
+                        "vagus_point_6",
+                        "ganglion_12-1"
+                    ],
+                    "contained-in": [
+                        "glossopharyngeal_1"
+                    ]
+                },
+                {
+                    "id": "GLN_2",
+                    "connects": [
+                        "ganglion_12-1",
+                        "GLS_point_1"
+                    ],
+                    "contained-in": [
+                        "glossopharyngeal_2"
+                    ]
+                },
+                {
+                    "id": "GLN_3",
+                    "connects": [
+                        "ganglion_12-1",
+                        "GLS_point_2"
+                    ],
+                    "contained-in": [
+                        "glossopharyngeal_3"
+                    ]
+                },
+                {
+                    "id": "GLN_4",
+                    "connects": [
+                        "ganglion_12-1",
+                        "GLS_point_3"
+                    ],
+                    "contained-in": [
+                        "glossopharyngeal_4"
+                    ]
+                },
+                {
+                    "id": "PLM_1",
+                    "models": "ILX:0789095",
+                    "connects": [
+                        "vagus_point_7",
+                        "plexus_4-1"
+                    ],
+                    "contained-in": [
+                        "vagus_12"
+                    ]
+                },
+                {
+                    "id": "BRNCH_1",
+                    "models": "ILX:0786619",
+                    "connects": [
+                        "vagus_point_8",
+                        "brnch_branching_point"
+                    ],
+                    "contained-in": [
+                        "vagus_9"
+                    ]
+                },
+                {
+                    "id": "EVN_1",
+                    "models": "ILX:0790803",
+                    "connects": [
+                        "vagus_point_9",
+                        "esophageal_branching_point"
+                    ],
+                    "contained-in": [
+                        "esophageal_vagus_1"
+                    ]
+                },
+                {
+                    "id": "EVN_2",
+                    "models": "ILX:0785247",
+                    "connects": [
+                        "esophageal_branching_point",
+                        "plexus_5-1"
+                    ],
+                    "contained-in": [
+                        "esophageal_vagus_2"
+                    ]
+                },
+                {
+                    "id": "EVN_3",
+                    "models": "ILX:0790681",
+                    "connects": [
+                        "esophageal_branching_point",
+                        "plexus_5-1"
+                    ],
+                    "contained-in": [
+                        "esophageal_vagus_3"
+                    ]
+                },
+                {
+                    "id": "pancreas_vagus_1",
+                    "models": "FMA:77213",
+                    "connects": [
+                        "vagus_point_10",
+                        "digestive_9-1"
+                    ],
+                    "contained-in": [
+                        "vagus_7"
+                    ]
+                },
+                {
+                    "id": "gastric_vagus_1",
+                    "models": "ILX:0791632",
+                    "connects": [
+                        "vagus_point_11",
+                        "plexus_6-1"
+                    ],
+                    "contained-in": [
+                        "vagus_10"
+                    ]
+                },
+                {
+                    "id": "renal_vagus_1",
+                    "models": "ILX:0791071",
+                    "connects": [
+                        "vagus_point_13",
+                        "urinary_13-1"
+                    ],
+                    "contained-in": [
+                        "vagus_13"
+                    ]
+                },
+                {
+                    "id": "splanchnic_n",
+                    "models": "UBERON:0003715",
+                    "connects": [
+                        "splanchnic_point-1",
+                        "splanchnic_point-2",
+                        "splanchnic_point-3",
+                        "splanchnic_point-4",
+                        "splanchnic_point-5"
+                    ]
+                },
+                {
+                    "id": "splanchnic_great",
+                    "models": "UBERON:0018680",
+                    "connects": [
+                        "splanchnic_point-5",
+                        "splanchnic_point-6",
+                        "splanchnic_point-7",
+                        "splanchnic_point-8",
+                        "splanchnic_point-9"
+                    ]
+                },
+                {
+                    "id": "splanchnic_less",
+                    "models": "UBERON:0018681",
+                    "connects": [
+                        "splanchnic_point-9",
+                        "splanchnic_point-10",
+                        "splanchnic_point-11",
+                        "splanchnic_point-12"
+                    ]
+                },
+                {
+                    "id": "splanchnic_least",
+                    "models": "UBERON:0001964",
+                    "connects": [
+                        "splanchnic_point-12",
+                        "splanchnic_point-13",
+                        "splanchnic_point-14",
+                        "splanchnic_branching_point"
+                    ],
+                    "contained-in": [
+                        "splanchnic"
+                    ]
+                },
+                {
+                    "id": "T1_splanchnic",
+                    "connects": [
+                        "T1_spinal",
+                        "splanchnic_point-1"
+
+                    ]
+                },
+                {
+                    "id": "T2_splanchnic",
+                    "connects": [
+                        "T2_spinal",
+                        "splanchnic_point-2"
+                    ]
+                },
+                {
+                    "id": "T3_splanchnic",
+                    "connects": [
+                        "T3_spinal",
+                        "splanchnic_point-3"
+                    ]
+                },
+                {
+                    "id": "T4_splanchnic",
+                    "connects": [
+                        "T4_spinal",
+                        "splanchnic_point-4"
+                    ]
+                },
+
+                {
+                    "id": "T5_splanchnic",
+                    "connects": [
+                        "T5_spinal",
+                        "splanchnic_point-5"
+                    ]
+                },
+                {
+                    "id": "T6_splanchnic",
+                    "connects": [
+                        "T6_spinal",
+                        "splanchnic_point-6"
+                    ]
+                },
+                {
+                    "id": "T7_splanchnic",
+                    "connects": [
+                        "T7_spinal",
+                        "splanchnic_point-7"
+                    ]
+                },
+                {
+                    "id": "T8_splanchnic",
+                    "connects": [
+                        "T8_spinal",
+                        "splanchnic_point-8"
+                    ]
+                },
+                {
+                    "id": "T9_splanchnic",
+                    "connects": [
+                        "T9_spinal",
+                        "splanchnic_point-9"
+                    ]
+                },
+                {
+                    "id": "T10_splanchnic",
+                    "connects": [
+                        "T10_spinal",
+                        "splanchnic_point-10"
+                    ]
+                },
+                {
+                    "id": "T11_splanchnic",
+                    "connects": [
+                        "T11_spinal",
+                        "splanchnic_point-11"
+                    ]
+                },
+                {
+                    "id": "T12_splanchnic",
+                    "connects": [
+                        "T12_spinal",
+                        "splanchnic_point-12"
+                    ]
+                },
+                {
+                    "id": "T13_splanchnic",
+                    "connects": [
+                        "T13_spinal",
+                        "splanchnic_point-13"
+                    ]
+                },
+                {
+                    "id": "L1_splanchnic",
+                    "connects": [
+                        "L1_spinal",
+                        "splanchnic_point-14"
+                    ]
+                },
+                {
+                    "id": "L5_pudendal",
+                    "connects": [
+                        "L5_spinal",
+                        "pudendal_point_1"
+                    ]
+                },
+                {
+                    "id": "L6_pudendal",
+                    "connects": [
+                        "L6_spinal",
+                        "pudendal_point_1"
+                    ]
+                },
+                {
+                    "id": "S1_pudendal",
+                    "connects": [
+                        "S1_spinal",
+                        "pudendal_point_1"
+                    ]
+                },
+                {
+                    "id": "pudendal",
+                    "models": "UBERON:0011390",
+                    "connects": [
+                        "pudendal_point_1",
+                        "pudendal_branching_point"
+                    ],
+                    "contained-in": [
+                        "pudendal_n"
                     ]
                 },
                 {
@@ -5216,8 +5637,7 @@
                         "spinal_3-1/C3_dorsal_root_end"
                     ],
                     "contained-in": [
-                        "S45_C3",
-                        "S50_C3"
+                        "S45_C3"
                     ]
                 },
                 {
@@ -5228,8 +5648,7 @@
                         "spinal_4-1/C4_dorsal_root_end"
                     ],
                     "contained-in": [
-                        "S45_C4",
-                        "S50_C4"
+                        "S45_C4"
                     ]
                 },
                 {
@@ -5240,8 +5659,7 @@
                         "spinal_5-1/C5_dorsal_root_end"
                     ],
                     "contained-in": [
-                        "S45_C5",
-                        "S50_C5"
+                        "S45_C5"
                     ]
                 },
                 {
@@ -5288,8 +5706,7 @@
                         "spinal_9-1/T1_dorsal_root_end"
                     ],
                     "contained-in": [
-                        "S45_T1",
-                        "S50_T1"
+                        "S45_T1"
                     ]
                 },
                 {
@@ -5300,8 +5717,7 @@
                         "spinal_10-1/T2_dorsal_root_end"
                     ],
                     "contained-in": [
-                        "S45_T2",
-                        "S50_T2"
+                        "S45_T2"
                     ]
                 },
                 {
@@ -5312,8 +5728,7 @@
                         "spinal_11-1/T3_dorsal_root_end"
                     ],
                     "contained-in": [
-                        "S45_T3",
-                        "S50_T3"
+                        "S45_T3"
                     ]
                 },
                 {
@@ -5324,8 +5739,7 @@
                         "spinal_12-1/T4_dorsal_root_end"
                     ],
                     "contained-in": [
-                        "S45_T4",
-                        "S50_T4"
+                        "S45_T4"
                     ]
                 },
                 {
@@ -5336,8 +5750,7 @@
                         "spinal_13-1/T5_dorsal_root_end"
                     ],
                     "contained-in": [
-                        "S45_T5",
-                        "S50_T5"
+                        "S45_T5"
                     ]
                 },
                 {
@@ -5348,8 +5761,7 @@
                         "spinal_14-1/T6_dorsal_root_end"
                     ],
                     "contained-in": [
-                        "S45_T6",
-                        "S50_T6"
+                        "S45_T6"
                     ]
                 },
                 {
@@ -5463,351 +5875,13 @@
                     ]
                 },
                 {
-                    "id": "T1_gray_ramus-spinal_n",
-                    "connects": [
-                        "S46_T1",
-                        "T1_spinal"
-                    ]
-                },
-                {
-                    "id": "T2_gray_ramus-spinal_n",
-                    "connects": [
-                        "S46_T2",
-                        "T2_spinal"
-                    ],
-                    "contained-in": [
-                        "S49_T2"
-                    ]
-                },
-                {
-                    "id": "T3_gray_ramus-spinal_n",
-                    "connects": [
-                        "S46_T3",
-                        "T3_spinal"
-                    ],
-                    "contained-in": [
-                        "S49_T3"
-                    ]
-                },
-                {
-                    "id": "T4_gray_ramus-spinal_n",
-                    "connects": [
-                        "S46_T4",
-                        "T4_spinal"
-                    ],
-                    "contained-in": [
-                        "S49_T4"
-                    ]
-                },
-                {
-                    "id": "T5_gray_ramus-spinal_n",
-                    "connects": [
-                        "S46_T5",
-                        "T5_spinal"
-                    ],
-                    "contained-in": [
-                        "S49_T5"
-                    ]
-                },
-                {
-                    "id": "T6_gray_ramus-spinal_n",
-                    "connects": [
-                        "S46_T6",
-                        "T6_spinal"
-                    ],
-                    "contained-in": [
-                        "S49_T6"
-                    ]
-                },
-                {
-                    "id": "L6_gray_ramus-spinal_n",
-                    "connects": [
-                        "S46_L6",
-                        "L6_spinal"
-                    ],
-                    "contained-in": [
-                        "S49_L6"
-                    ]
-                },
-                {
-                    "id": "S1_gray_ramus-spinal_n",
-                    "connects": [
-                        "S66_S1",
-                        "S1_spinal"
-                    ],
-                    "contained-in": [
-                        "S49_S1"
-                    ]
-                },
-                {
-                    "id": "C3_spinal_n",
-                    "connects": [
-                        "C3_spinal",
-                        "C3_C5_spinal_n-phrenic_n"
-                    ]
-                },
-                {
-                    "id": "C4_spinal_n",
-                    "connects": [
-                        "C4_spinal",
-                        "C3_C5_spinal_n-phrenic_n"
-                    ]
-                },
-                {
-                    "id": "C5_spinal_n",
-                    "connects": [
-                        "C5_spinal",
-                        "C3_C5_spinal_n-phrenic_n"
-                    ]
-                },
-                {
-                    "id": "C6_spinal_n",
-                    "connects": [
-                        "C6_spinal",
-                        "ardell_1_start-1"
-                    ]
-                },
-                {
-                    "id": "C7_spinal_n",
-                    "connects": [
-                        "C7_spinal",
-                        "ardell_1_start-2"
-                    ]
-                },
-                {
-                    "id": "C8_spinal_n",
-                    "connects": [
-                        "C8_spinal",
-                        "ardell_1_start-3"
-                    ]
-                },
-                {
-                    "id": "T1_spinal_n-1",
-                    "connects": [
-                        "T1_spinal",
-                        "ardell_1_start-4"
-                    ]
-                },
-                {
-                    "id": "T1_spinal_n-2",
-                    "connects": [
-                        "T1_spinal",
-                        "ardell_6_start-4"
-                    ]
-                },
-                {
-                    "id": "T1_spinal_n-3",
-                    "connects": [
-                        "T1_spinal",
-                        "splanchnic_n_start-1"
-                    ]
-                },
-                {
-                    "id": "T2_spinal_n-1",
-                    "connects": [
-                        "T2_spinal",
-                        "ardell_1_start-5"
-                    ]
-                },
-                {
-                    "id": "T2_spinal_n-2",
-                    "connects": [
-                        "T2_spinal",
-                        "ardell_6_start-5"
-                    ]
-                },
-                {
-                    "id": "T2_spinal_n-3",
-                    "connects": [
-                        "T2_spinal",
-                        "splanchnic_n_start-2"
-                    ]
-                },
-                {
-                    "id": "T3_spinal_n-1",
-                    "connects": [
-                        "T3_spinal",
-                        "ardell_1_start-6"
-                    ]
-                },
-                {
-                    "id": "T3_spinal_n-2",
-                    "connects": [
-                        "T3_spinal",
-                        "ardell_6_start-6"
-                    ]
-                },
-                {
-                    "id": "T3_spinal_n-3",
-                    "connects": [
-                        "T3_spinal",
-                        "splanchnic_n_start-3"
-                    ]
-                },
-                {
-                    "id": "T4_spinal_n-1",
-                    "connects": [
-                        "T4_spinal",
-                        "ardell_1_start-7"
-                    ]
-                },
-                {
-                    "id": "T4_spinal_n-2",
-                    "connects": [
-                        "T4_spinal",
-                        "ardell_6_start-7"
-                    ]
-                },
-                {
-                    "id": "T4_spinal_n-3",
-                    "connects": [
-                        "T4_spinal",
-                        "splanchnic_n_start-4"
-                    ]
-                },
-                {
-                    "id": "T5_spinal_n-1",
-                    "connects": [
-                        "T5_spinal",
-                        "ardell_1_start-8"
-                    ]
-                },
-                {
-                    "id": "T5_spinal_n-2",
-                    "connects": [
-                        "T5_spinal",
-                        "ardell_6_start-8"
-                    ]
-                },
-                {
-                    "id": "T5_spinal_n-3",
-                    "connects": [
-                        "T5_spinal",
-                        "splanchnic_n_start-5"
-                    ]
-                },
-                {
-                    "id": "T6_spinal_n-1",
-                    "connects": [
-                        "T6_spinal",
-                        "ardell_1_start-9"
-                    ]
-                },
-                {
-                    "id": "T6_spinal_n-2",
-                    "connects": [
-                        "T6_spinal",
-                        "ardell_6_start-9"
-                    ]
-                },
-                {
-                    "id": "T6_spinal_n-3",
-                    "connects": [
-                        "T6_spinal",
-                        "splanchnic_n_start-6"
-                    ]
-                },
-                {
-                    "id": "T7_spinal_n-3",
-                    "connects": [
-                        "T7_spinal",
-                        "splanchnic_n_start-7"
-                    ]
-                },
-                {
-                    "id": "T8_spinal_n-3",
-                    "connects": [
-                        "T8_spinal",
-                        "splanchnic_n_start-8"
-                    ]
-                },
-                {
-                    "id": "T9_spinal_n-3",
-                    "connects": [
-                        "T9_spinal",
-                        "splanchnic_n_start-9"
-                    ]
-                },
-                {
-                    "id": "T10_spinal_n-3",
-                    "connects": [
-                        "T10_spinal",
-                        "splanchnic_n_start-10"
-                    ]
-                },
-                {
-                    "id": "T11_spinal_n-3",
-                    "connects": [
-                        "T11_spinal",
-                        "splanchnic_n_start-11"
-                    ]
-                },
-                {
-                    "id": "T12_spinal_n-3",
-                    "connects": [
-                        "T12_spinal",
-                        "splanchnic_n_start-12"
-                    ]
-                },
-                {
-                    "id": "T13_spinal_n-3",
-                    "connects": [
-                        "T13_spinal",
-                        "splanchnic_n_start-13"
-                    ]
-                },
-                {
-                    "id": "T1_paravertebral_ganglion-ardell_5",
-                    "connects": [
-                        "S46_T1",
-                        "ardell_5"
-                    ]
-                },
-                {
-                    "id": "T2_paravertebral_ganglion-ardell_5",
-                    "connects": [
-                        "S46_T2",
-                        "ardell_5"
-                    ]
-                },
-                {
-                    "id": "T3_paravertebral_ganglion-ardell_5",
-                    "connects": [
-                        "S46_T3",
-                        "ardell_5"
-                    ]
-                },
-                {
-                    "id": "T4_paravertebral_ganglion-ardell_5",
-                    "connects": [
-                        "S46_T4",
-                        "ardell_5"
-                    ]
-                },
-                {
-                    "id": "T5_paravertebral_ganglion-ardell_5",
-                    "connects": [
-                        "S46_T5",
-                        "ardell_5"
-                    ]
-                },
-                {
-                    "id": "T6_paravertebral_ganglion-ardell_5",
-                    "connects": [
-                        "S46_T6",
-                        "ardell_5"
-                    ]
-                },
-                {
                     "id": "T1_ventral_root_ramus",
                     "connects": [
                         "T1_spinal",
                         "T1_ventral_root_end"
                     ],
                     "contained-in": [
-                        "S43_T1",
-                        "S48_T1",
-                        "S50_T1"
+                        "S48_T1"
                     ]
                 },
                 {
@@ -5817,10 +5891,7 @@
                         "T2_ventral_root_end"
                     ],
                     "contained-in": [
-                        "S43_T2",
-                        "S48_T2",
-                        "S49_T2",
-                        "S50_T2"
+                        "S49_T2"
                     ]
                 },
                 {
@@ -5830,10 +5901,7 @@
                         "T3_ventral_root_end"
                     ],
                     "contained-in": [
-                        "S43_T3",
-                        "S48_T3",
-                        "S49_T3",
-                        "S50_T3"
+                        "S49_T3"
                     ]
                 },
                 {
@@ -5843,10 +5911,7 @@
                         "T4_ventral_root_end"
                     ],
                     "contained-in": [
-                        "S43_T4",
-                        "S48_T4",
-                        "S49_T4",
-                        "S50_T4"
+                        "S49_T4"
                     ]
                 },
                 {
@@ -5856,10 +5921,7 @@
                         "T5_ventral_root_end"
                     ],
                     "contained-in": [
-                        "S43_T5",
-                        "S48_T5",
-                        "S49_T5",
-                        "S50_T5"
+                        "S49_T5"
                     ]
                 },
                 {
@@ -5869,10 +5931,7 @@
                         "T6_ventral_root_end"
                     ],
                     "contained-in": [
-                        "S43_T6",
-                        "S48_T6",
-                        "S49_T6",
-                        "S50_T6"
+                        "S49_T6"
                     ]
                 },
                 {
@@ -5971,10 +6030,6 @@
                     "connects": [
                         "L1_spinal",
                         "spinal_22-1/L1_ventral_root_end"
-                    ],
-                    "contained-in": [
-                        "S43_L1",
-                        "S48_L1"
                     ]
                 },
                 {
@@ -5982,297 +6037,150 @@
                     "connects": [
                         "L2_spinal",
                         "spinal_23-1/L2_ventral_root_end"
-                    ],
-                    "contained-in": [
-                        "S43_L2",
-                        "S48_L2"
                     ]
                 },
                 {
-                    "id": "T1_ventral_root_paravertebral_ganglion",
-                    "connects": [
-                        "T1_ventral_root_end",
-                        "S46_T1"
-                    ],
-                    "contained-in": [
-                        "S43_T1",
-                        "S50_T1"
-                    ]
-                },
-                {
-                    "id": "T2_ventral_root_paravertebral_ganglion",
-                    "connects": [
-                        "T2_ventral_root_end",
-                        "S46_T2"
-                    ],
-                    "contained-in": [
-                        "S43_T2",
-                        "S48_T2",
-                        "S50_T2"
-                    ]
-                },
-                {
-                    "id": "T3_ventral_root_paravertebral_ganglion",
-                    "connects": [
-                        "T3_ventral_root_end",
-                        "S46_T3"
-                    ],
-                    "contained-in": [
-                        "S43_T3",
-                        "S48_T3",
-                        "S50_T3"
-                    ]
-                },
-                {
-                    "id": "T4_ventral_root_paravertebral_ganglion",
-                    "connects": [
-                        "T4_ventral_root_end",
-                        "S46_T4"
-                    ],
-                    "contained-in": [
-                        "S43_T4",
-                        "S48_T4",
-                        "S50_T4"
-                    ]
-                },
-                {
-                    "id": "T5_ventral_root_paravertebral_ganglion",
-                    "connects": [
-                        "T5_ventral_root_end",
-                        "S46_T5"
-                    ],
-                    "contained-in": [
-                        "S43_T5",
-                        "S48_T5",
-                        "S50_T5"
-                    ]
-                },
-                {
-                    "id": "T6_ventral_root_paravertebral_ganglion",
-                    "connects": [
-                        "T6_ventral_root_end",
-                        "S46_T6"
-                    ],
-                    "contained-in": [
-                        "S43_T6",
-                        "S48_T6",
-                        "S50_T6"
-                    ]
-                },
-                {
-                    "id": "L1_ventral_root_paravertebral_ganglion",
-                    "connects": [
-                        "spinal_22-1/L1_ventral_root_end",
-                        "S46_L1"
-                    ],
-                    "contained-in": [
-                        "S43_L1",
-                        "S48_L1",
-                        "S50_L1"
-                    ]
-                },
-                {
-                    "id": "L2_ventral_root_paravertebral_ganglion",
-                    "connects": [
-                        "spinal_23-1/L2_ventral_root_end",
-                        "S46_L2"
-                    ],
-                    "contained-in": [
-                        "S43_L2",
-                        "S48_L2",
-                        "S50_L2"
-                    ]
-                },
-                {
-                    "id": "L6_paravertebral_ganglion",
-                    "connects": [
-                        "L6_spinal",
-                        "S46_L6"
-                    ],
-                    "contained-in": [
-                        "S48_L6"
-                    ]
-                },
-                {
-                    "id": "S1_paravertebral_ganglion",
-                    "connects": [
-                        "S1_spinal",
-                        "S66_S1"
-                    ],
-                    "contained-in": [
-                        "S48_S1"
-                    ]
-                },
-                {
-                    "id": "ICG-T1_sympathetic_cord",
-                    "models": "ILX:0738291",
-                    "connects": [
-                        "ganglion_10-1",
-                        "S46_T1"
-                    ]
-                },
-                {
-                    "id": "SCG-MCG_sympathetic_cord",
-                    "models": "ILX:0738292",
-                    "connects": [
-                        "ganglion_3-1",
-                        "ganglion_9-1"
-                    ]
-                },
-                {
-                    "id": "MCG-ICG_sympathetic_cord",
-                    "models": "ILX:0738290",
-                    "connects": [
-                        "ganglion_9-1",
-                        "ganglion_10-1"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_T1-T2",
+                    "id": "T1_gray_ramus-spinal_n",
                     "connects": [
                         "S46_T1",
-                        "S46_T2"
+                        "T1_spinal"
                     ]
                 },
                 {
-                    "id": "sympathetic_trunk_T2-T3",
+                    "id": "T2_gray_ramus-spinal_n",
                     "connects": [
                         "S46_T2",
-                        "S46_T3"
+                        "T2_spinal"
                     ]
                 },
                 {
-                    "id": "sympathetic_trunk_T3-T4",
+                    "id": "T3_gray_ramus-spinal_n",
                     "connects": [
                         "S46_T3",
-                        "S46_T4"
+                        "T3_spinal"
                     ]
                 },
                 {
-                    "id": "sympathetic_trunk_T4-T5",
+                    "id": "T4_gray_ramus-spinal_n",
                     "connects": [
                         "S46_T4",
-                        "S46_T5"
+                        "T4_spinal"
                     ]
                 },
                 {
-                    "id": "sympathetic_trunk_T5-T6",
+                    "id": "T5_gray_ramus-spinal_n",
                     "connects": [
                         "S46_T5",
-                        "S46_T6"
+                        "T5_spinal"
                     ]
                 },
                 {
-                    "id": "sympathetic_trunk_T6-T7",
+                    "id": "T6_gray_ramus-spinal_n",
                     "connects": [
                         "S46_T6",
-                        "S46_T7"
+                        "T6_spinal"
                     ]
                 },
                 {
-                    "id": "sympathetic_trunk_T7-T8",
-                    "connects": [
-                        "S46_T7",
-                        "S46_T8"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_T8-T9",
-                    "connects": [
-                        "S46_T8",
-                        "S46_T9"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_T9-T10",
-                    "connects": [
-                        "S46_T9",
-                        "S46_T10"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_T10-T11",
-                    "connects": [
-                        "S46_T10",
-                        "S46_T11"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_T11-T12",
-                    "connects": [
-                        "S46_T11",
-                        "S46_T12"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_T12-T13",
-                    "models": "ILX:0777086",
-                    "connects": [
-                        "S46_T12",
-                        "S46_T13"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_T13-L1",
-                    "models": "ILX:0777087",
-                    "connects": [
-                        "S46_T13",
-                        "S46_L1"
-                    ]
-                },
-                {
-                    "id": "L1-L2_interganglionic_segment",
-                    "models": "ILX:0777088",
-                    "connects": [
-                        "S46_L1",
-                        "S46_L2"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_L2-L3",
-                    "models": "ILX:0777089",
-                    "connects": [
-                        "S46_L2",
-                        "S46_L3"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_L3-L4",
-                    "models": "ILX:0777090",
-                    "connects": [
-                        "S46_L3",
-                        "S46_L4"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_L4-L5",
-                    "models": "ILX:0777091",
-                    "connects": [
-                        "S46_L4",
-                        "S46_L5"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_L5-L6",
-                    "models": "ILX:0777092",
-                    "connects": [
-                        "S46_L5",
-                        "S46_L6"
-                    ]
-                },
-                {
-                    "id": "sympathetic_trunk_L6-S1",
-                    "models": "ILX:0777093",
+                    "id": "L6_gray_ramus-spinal_n",
                     "connects": [
                         "S46_L6",
-                        "S66_S1"
+                        "L6_spinal"
+                    ],
+                    "contained-in": [
+                        "S49_L6"
                     ]
                 },
                 {
-                    "id": "sympathetic_trunk_S1-S2",
+                    "id": "S1_gray_ramus-spinal_n",
                     "connects": [
-                        "S66_S1",
-                        "S46_S2"
+                        "S46_S1",
+                        "S1_spinal"
+                    ],
+                    "contained-in": [
+                        "S49_S1"
+                    ]
+                },
+                {
+                    "id": "L1-spinal_lumbar",
+                    "connects": [
+                        "L1_spinal",
+                        "lumbar_branching_point"
+                    ]
+                },
+                {
+                    "id": "L2-spinal_lumbar",
+                    "connects": [
+                        "L2_spinal",
+                        "lumbar_branching_point"
+                    ]
+                },
+                {
+                    "id": "lumbar_splanchnic_n",
+                    "models": "UBERON:0018683",
+                    "connects": [
+                        "lumbar_branching_point",
+                        "ganglion_5-1"
+                    ],
+                    "contained-in": [
+                        "lumbar_splanchnic"
+                    ]
+                },
+                {
+                    "id": "lumbar_c",
+                    "connects": [
+                        "ganglion_5-1",
+                        "LCN_branching_point"
+                    ],
+                    "contained-in": [
+                        "LCN"
+                    ]
+                },
+                {
+                    "id": "L6_pelvic",
+                    "connects": [
+                        "L6_spinal",
+                        "pelvic_branching_point"
+                    ]
+                },
+                {
+                    "id": "S1_pelvic",
+                    "connects": [
+                        "S1_spinal",
+                        "pelvic_branching_point"
+                    ]
+                },
+                {
+                    "id": "pelvic_splanchnic_n",
+                    "models": "UBERON:0018675",
+                    "connects": [
+                        "pelvic_branching_point",
+                        "ganglion_4-1"
+                    ],
+                    "contained-in": [
+                        "pelvic_splanchnic"
+                    ]
+                },
+                {
+                    "id": "hypogastric_n",
+                    "models": "UBERON:0005303",
+                    "connects": [
+                        "ganglion_5-1",
+                        "ganglion_4-1"
+                    ],
+                    "contained-in": [
+                        "hypogastric"
+                    ]
+                },
+                {
+                    "id": "bladder_n",
+                    "models": "ILX:0793559",
+                    "connects": [
+                        "ganglion_4-1",
+                        "bladder_n_branching_point"
+                    ],
+                    "contained-in": [
+                        "bladder_nerve"
                     ]
                 },
                 {
@@ -6493,142 +6401,226 @@
                     ]
                 },
                 {
-                    "id": "phrenic_n",
-                    "models": "UBERON:0001884",
+                    "id": "AADN_1",
+                    "models": "ILX:0738312",
                     "connects": [
-                        "C3_C5_spinal_n-phrenic_n",
-                        "phrenic_n_branching_point"
-                    ]
-                },
-                {
-                    "id": "bladder_n",
-                    "models": "ILX:0793559",
-                    "connects": [
-                        "ganglion_4-1",
-                        "bladder_n-bladder"
-                    ]
-                },
-                {
-                    "id": "hypogastric_n",
-                    "models": "UBERON:0005303",
-                    "connects": [
-                        "ganglion_5-1",
-                        "ganglion_4-1"
+                        "ganglion_2-1",
+                        "AADN_branching_point"
                     ],
                     "contained-in": [
-                        "keast_5-1"
+                        "AADN"
                     ]
                 },
                 {
-                    "id": "lumbar_splanchnic_n",
-                    "models": "UBERON:0018683",
+                    "id": "GGN_1",
+                    "models": "ILX:0738293",
                     "connects": [
-                        "lumbar_splanchnic_n_start",
-                        "ganglion_5-1"
+                        "plexus_1-1",
+                        "GGN_branching_point"
                     ],
                     "contained-in": [
-                        "keast_7-1"
+                        "GGN"
                     ]
                 },
                 {
-                    "id": "L1_spinal_n-1",
+                    "id": "T1_ventral_root_paravertebral_ganglion",
                     "connects": [
-                        "L1_spinal",
-                        "lumbar_splanchnic_n_start"
+                        "T1_ventral_root_end",
+                        "S46_T1"
+                    ],
+                    "contained-in": [
+                        "S43_T1"
                     ]
                 },
                 {
-                    "id": "L1_spinal_n-2",
+                    "id": "T2_ventral_root_paravertebral_ganglion",
                     "connects": [
-                        "L1_spinal",
-                        "splanchnic_n_start-14"
+                        "T2_ventral_root_end",
+                        "S46_T2"
+                    ],
+                    "contained-in": [
+                        "S43_T2",
+                        "S48_T2"
                     ]
                 },
                 {
-                    "id": "L2_spinal_n",
+                    "id": "T3_ventral_root_paravertebral_ganglion",
                     "connects": [
-                        "L2_spinal",
-                        "lumbar_splanchnic_n_start"
+                        "T3_ventral_root_end",
+                        "S46_T3"
+                    ],
+                    "contained-in": [
+                        "S43_T3",
+                        "S48_T3"
                     ]
                 },
                 {
-                    "id": "pelvic_splanchnic_n",
-                    "models": "UBERON:0018675",
+                    "id": "T4_ventral_root_paravertebral_ganglion",
                     "connects": [
-                        "pelvic_splanchnic_n_start",
-                        "ganglion_4-1"
+                        "T4_ventral_root_end",
+                        "S46_T4"
+                    ],
+                    "contained-in": [
+                        "S43_T4",
+                        "S48_T4"
                     ]
                 },
                 {
-                    "id": "pudendal_n",
-                    "models": "UBERON:0011390",
+                    "id": "T5_ventral_root_paravertebral_ganglion",
                     "connects": [
-                        "pudendal_n_start",
-                        "pudendal_n_branching_point"
+                        "T5_ventral_root_end",
+                        "S46_T5"
+                    ],
+                    "contained-in": [
+                        "S43_T5",
+                        "S48_T5"
                     ]
                 },
                 {
-                    "id": "L5_spinal_n",
+                    "id": "T6_ventral_root_paravertebral_ganglion",
                     "connects": [
-                        "L5_spinal",
-                        "pudendal_n_start"
+                        "T6_ventral_root_end",
+                        "S46_T6"
+                    ],
+                    "contained-in": [
+                        "S43_T6",
+                        "S48_T6"
                     ]
                 },
                 {
-                    "id": "L6_spinal_n-1",
+                    "id": "L1_ventral_root_paravertebral_ganglion",
+                    "connects": [
+                        "spinal_22-1/L1_ventral_root_end",
+                        "S46_L1"
+                    ],
+                    "contained-in": [
+                        "S43_L1",
+                        "S48_L1",
+                        "S50_L1"
+                    ]
+                },
+                {
+                    "id": "L2_ventral_root_paravertebral_ganglion",
+                    "connects": [
+                        "spinal_23-1/L2_ventral_root_end",
+                        "S46_L2"
+                    ],
+                    "contained-in": [
+                        "S43_L2",
+                        "S48_L2",
+                        "S50_L2"
+                    ]
+                },
+                {
+                    "id": "L6_paravertebral_ganglion",
                     "connects": [
                         "L6_spinal",
-                        "pudendal_n_start"
+                        "S46_L6"
+                    ],
+                    "contained-in": [
+                        "S48_L6"
                     ]
                 },
                 {
-                    "id": "L6_spinal_n-2",
-                    "connects": [
-                        "L6_spinal",
-                        "pelvic_splanchnic_n_start"
-                    ]
-                },
-                {
-                    "id": "S1_spinal_n-1",
+                    "id": "S1_paravertebral_ganglion",
                     "connects": [
                         "S1_spinal",
-                        "pudendal_n_start"
-                    ]
-                },
-                {
-                    "id": "S1_spinal_n-2",
-                    "connects": [
-                        "S1_spinal",
-                        "pelvic_splanchnic_n_start"
+                        "S46_S1"
+                    ],
+                    "contained-in": [
+                        "S48_S1"
                     ]
                 },
                 {
                     "id": "ardell_1",
                     "connects": [
-                        "ardell_1_start-1",
-                        "ardell_1_start-2",
-                        "ardell_1_start-3",
-                        "ardell_1_start-4",
-                        "ardell_1_start-5",
-                        "ardell_1_start-6",
-                        "ardell_1_start-7",
-                        "ardell_1_start-8",
-                        "ardell_1_start-9",
+                        "ardell_1_point-1",
+                        "ardell_1_point-2",
+                        "ardell_1_point-3",
+                        "ardell_1_point-4",
+                        "ardell_1_point-5",
+                        "ardell_1_point-6",
+                        "ardell_1_point-7",
+                        "ardell_1_point-8",
+                        "ardell_1_point-9",
                         "ardell_1_branching_point"
+                    ]
+                },
+                {
+                    "id": "C6_ardell-1",
+                    "connects": [
+                        "C6_spinal",
+                        "ardell_1_point-1"
+                    ]
+                },
+                {
+                    "id": "C7_ardell-1",
+                    "connects": [
+                        "C7_spinal",
+                        "ardell_1_point-2"
+                    ]
+                },
+                {
+                    "id": "C8_ardell-1",
+                    "connects": [
+                        "C8_spinal",
+                        "ardell_1_point-3"
+                    ]
+                },
+                {
+                    "id": "T1_ardell-1",
+                    "connects": [
+                        "T1_spinal",
+                        "ardell_1_point-4"
+                    ]
+                },
+                {
+                    "id": "T2_ardell-1",
+                    "connects": [
+                        "T2_spinal",
+                        "ardell_1_point-5"
+                    ]
+                },
+                {
+                    "id": "T3_ardell-1",
+                    "connects": [
+                        "T3_spinal",
+                        "ardell_1_point-6"
+                    ]
+                },
+                {
+                    "id": "T4_ardell-1",
+                    "connects": [
+                        "T4_spinal",
+                        "ardell_1_point-7"
+                    ]
+                },
+                {
+                    "id": "T5_ardell-1",
+                    "connects": [
+                        "T5_spinal",
+                        "ardell_1_point-8"
+                    ]
+                },
+                {
+                    "id": "T6_ardell-1",
+                    "connects": [
+                        "T6_spinal",
+                        "ardell_1_point-9"
                     ]
                 },
                 {
                     "id": "MCG-ardell_2",
                     "connects": [
                         "ganglion_9-1",
-                        "ardell_2_start"
+                        "ardell-2_branching_point"
                     ]
                 },
                 {
                     "id": "ICG-ardell_2",
                     "connects": [
                         "ganglion_10-1",
-                        "ardell_2_start"
+                        "ardell-2_branching_point"
                     ]
                 },
                 {
@@ -6641,432 +6633,333 @@
                 {
                     "id": "ardell_5",
                     "connects": [
-                        "ardell_5_start-1",
-                        "ardell_5_start-2",
-                        "ardell_5_start-3",
-                        "ardell_5_start-4",
-                        "ardell_5_start-5",
-                        "ardell_5_start-6",
+                        "ardell_5_point-1",
+                        "ardell_5_point-2",
+                        "ardell_5_point-3",
+                        "ardell_5_point-4",
+                        "ardell_5_point-5",
+                        "ardell_5_point-6",
                         "ardell_5_branching_point"
+                    ]
+                },
+                {
+                    "id": "T1_ardell-5",
+                    "connects": [
+                        "S46_T1",
+                        "ardell_5_point-1"
+                    ]
+                },
+                {
+                    "id": "T2_ardell-5",
+                    "connects": [
+                        "S46_T2",
+                        "ardell_5_point-2"
+                    ]
+                },
+                {
+                    "id": "T3_ardell-5",
+                    "connects": [
+                        "S46_T3",
+                        "ardell_5_point-3"
+                    ]
+                },
+                {
+                    "id": "T4_ardell-5",
+                    "connects": [
+                        "S46_T4",
+                        "ardell_5_point-4"
+                    ]
+                },
+                {
+                    "id": "T5_ardell-5",
+                    "connects": [
+                        "S46_T5",
+                        "ardell_5_point-5"
+                    ]
+                },
+                {
+                    "id": "T6_ardell-5",
+                    "connects": [
+                        "S46_T6",
+                        "ardell_5_point-6"
+                    ]
+                },
+                {
+                    "id": "ardell_6",
+                    "connects": [
+                        "ardell-6_point-1",
+                        "ardell-6_point-2",
+                        "ardell-6_point-3",
+                        "ardell-6_point-4",
+                        "ardell-6_point-5",
+                        "ardell-6_point-6",
+                        "ardell-6_point-7",
+                        "ardell-6_point-8",
+                        "ardell-6_point-9",
+                        "ardell-6_branching_point"
                     ]
                 },
                 {
                     "id": "SCG-ardell_6",
                     "connects": [
                         "ganglion_3-1",
-                        "ardell_6_start-1"
+                        "ardell-6_point-1"
                     ]
                 },
                 {
                     "id": "MCG-ardell_6",
                     "connects": [
                         "ganglion_9-1",
-                        "ardell_6_start-2"
+                        "ardell-6_point-2"
                     ]
                 },
                 {
                     "id": "ICG-ardell_6",
                     "connects": [
                         "ganglion_10-1",
-                        "ardell_6_start-3"
+                        "ardell-6_point-3"
                     ]
                 },
                 {
-                    "id": "ardell_6",
+                    "id": "T1-ardell_6",
                     "connects": [
-                        "ardell_6_start-1",
-                        "ardell_6_start-2",
-                        "ardell_6_start-3",
-                        "ardell_6_start-4",
-                        "ardell_6_start-5",
-                        "ardell_6_start-6",
-                        "ardell_6_start-7",
-                        "ardell_6_start-8",
-                        "ardell_6_start-9",
-                        "ardell_6_branching_point"
+                        "T1_spinal",
+                        "ardell-6_point-4"
                     ]
                 },
                 {
-                    "id": "bolser_1",
-                    "models": "ILX:0738312",
+                    "id": "T2-ardell_6",
                     "connects": [
-                        "ganglion_2-1",
-                        "bolser_1_branching_point"
-                    ],
-                    "contained-in": [
-                        "bolser_105"
+                        "T2_spinal",
+                        "ardell-6_point-5"
                     ]
                 },
                 {
-                    "id": "bolser_2",
+                    "id": "T3-ardell_6",
                     "connects": [
-                        "point_28",
-                        "respiratory_11-1"
-                    ],
-                    "contained-in": [
-                        "bolser_109"
+                        "T3_spinal",
+                        "ardell-6_point-6"
                     ]
                 },
                 {
-                    "id": "bolser_3",
+                    "id": "T4-ardell_6",
                     "connects": [
-                        "point_28",
-                        "respiratory_11-1"
-                    ],
-                    "contained-in": [
-                        "bolser_110"
+                        "T4_spinal",
+                        "ardell-6_point-7"
                     ]
                 },
                 {
-                    "id": "bolser_4",
+                    "id": "T5-ardell_6",
                     "connects": [
-                        "point_21",
-                        "respiratory_5-1"
+                        "T5_spinal",
+                        "ardell-6_point-8"
                     ]
                 },
                 {
-                    "id": "bolser_6",
-                    "models": "ILX:0738293",
+                    "id": "T6-ardell_6",
                     "connects": [
-                        "plexus_1-1",
-                        "bolser_6_branching_point"
-                    ],
-                    "contained-in": [
-                        "bolser_104"
-                    ]
-                },
-                {
-                    "id": "bolser_7",
-                    "connects": [
-                        "ganglion_3-1",
-                        "plexus_7-1"
-                    ]
-                },
-                {
-                    "id": "bolser_8",
-                    "models": "UBERON:0001650",
-                    "connects": [
-                        "plexus_7-1",
-                        "bolser_8_branching_point"
-                    ],
-                    "contained-in": [
-                        "bolser_102"
-                    ]
-                },
-                {
-                    "id": "bolser_9",
-                    "connects": [
-                        "bolser_8_branching_point",
-                        "bolser_9_branching_point"
-                    ]
-                },
-                {
-                    "id": "bolser_10",
-                    "models": "ILX:0738315",
-                    "connects": [
-                        "bolser_8_branching_point",
-                        "respiratory_11-1"
+                        "T6_spinal",
+                        "ardell-6_point-9"
                     ]
                 },
                 {
                     "id": "bolser_11",
                     "connects": [
                         "brain_12-1",
-                        "point_44"
+                        "vagus_point_6"
                     ]
                 },
                 {
-                    "id": "bolser_12",
+                    "id": "medulla_1",
                     "connects": [
-                        "ganglion_12-1",
-                        "cardio_37-1"
-                    ],
-                    "contained-in": [
-                        "bolser_22-1"
-                    ]
-                },
-                {
-                    "id": "bolser_13",
-                    "connects": [
-                        "ganglion_12-1",
-                        "point_42"
-                    ],
-                    "contained-in": [
-                        "bolser_108"
-                    ]
-                },
-                {
-                    "id": "bolser_14",
-                    "connects": [
-                        "external_laryngeal_n_branching_point",
-                        "respiratory_11-1"
-                    ]
-                },
-                {
-                    "id": "bolser_15",
-                    "connects": [
-                        "external_laryngeal_n_branching_point",
-                        "respiratory_5-1"
-                    ]
-                },
-                {
-                    "id": "bolser_25",
-                    "connects": [
-                        "point_44",
-                        "ganglion_12-1"
-                    ],
-                    "contained-in": [
-                        "bolser_106"
-                    ]
-                },
-                {
-                    "id": "bolser_26",
-                    "connects": [
-                        "plexus_7-1",
+                        "brain_33-1",
                         "point_1"
                     ]
                 },
                 {
-                    "id": "bolser_27",
+                    "id": "medulla_2",
                     "connects": [
-                        "point_1",
-                        "brain_48-1"
+                        "brain_12-1",
+                        "point_1"
                     ]
                 },
                 {
-                    "id": "bolser_29",
+                    "id": "medulla_3",
                     "connects": [
-                        "point_1",
-                        "brain_11-1"
+                        "brain_34-1",
+                        "point_1"
                     ]
                 },
                 {
-                    "id": "bolser_30",
+                    "id": "medulla_4",
                     "connects": [
-                        "S46_T1",
-                        "point_46"
+                        "brain_44-1",
+                        "point_1"
                     ]
                 },
                 {
-                    "id": "bolser_31",
+                    "id": "medulla_5",
+                    "connects": [
+                        "brain_48-1",
+                        "point_1"
+                    ]
+                },
+                {
+                    "id": "medulla_6",
+                    "connects": [
+                        "brain_11-1",
+                        "point_1"
+                    ]
+                },
+                {
+                    "id": "medulla_7",
                     "connects": [
                         "brain_27-1",
                         "point_1"
                     ]
                 },
                 {
-                    "id": "bolser_32",
+                    "id": "pons_1",
                     "connects": [
-                        "plexus_1-1",
-                        "point_16"
+                        "brain_13-1",
+                        "brain_14-1"
                     ]
                 },
                 {
-                    "id": "PH_GN",
+                    "id": "pons_2",
                     "connects": [
-                        "ganglion_12-1",
-                        "respiratory_28-1"
+                        "brain_13-1",
+                        "brain_19-1"
+                    ]
+                },
+                {
+                    "id": "pons_3",
+                    "connects": [
+                        "brain_13-1",
+                        "brain_17-1"
+                    ]
+                },
+                {
+                    "id": "pons_4",
+                    "connects": [
+                        "brain_13-1",
+                        "brain_20-1"
+                    ]
+                },
+                {
+                    "id": "pons_5",
+                    "connects": [
+                        "brain_13-1",
+                        "brain_15-1"
+                    ]
+                },
+                {
+                    "id": "pons_6",
+                    "connects": [
+                        "brain_13-1",
+                        "brain_16-1"
+                    ]
+                },
+                {
+                    "id": "pons_7",
+                    "connects": [
+                        "brain_13-1",
+                        "brain_18-1"
+                    ]
+                },
+                {
+                    "id": "C3_phrenic",
+                    "connects": [
+                        "C3_spinal",
+                        "phrenic_point-1"
+                    ]
+                },
+                {
+                    "id": "C4_phrenic",
+                    "connects": [
+                        "C4_spinal",
+                        "phrenic_point-1"
+                    ]
+                },
+                {
+                    "id": "C5_phrenic",
+                    "connects": [
+                        "C5_spinal",
+                        "phrenic_point-1"
+                    ]
+                },
+                {
+                    "id": "phrenic_1",
+                    "models": "UBERON:0001884",
+                    "connects": [
+                        "phrenic_point-1",
+                        "phrenic_n_branching_point"
                     ],
                     "contained-in": [
-                        "bolser_115"
+                        "phrenic_n"
                     ]
                 },
                 {
-                    "id": "splanchnic_n-1",
-                    "models": "UBERON:0003715",
-                    "connects": [
-                        "splanchnic_n_start-1",
-                        "splanchnic_n_start-2",
-                        "splanchnic_n_start-3",
-                        "splanchnic_n_start-4",
-                        "splanchnic_n_start-5"
-                    ]
-                },
-                {
-                    "id": "splanchnic_n-2",
-                    "models": "UBERON:0018680",
-                    "connects": [
-                        "splanchnic_n_start-5",
-                        "splanchnic_n_start-6",
-                        "splanchnic_n_start-7",
-                        "splanchnic_n_start-8",
-                        "splanchnic_n_start-9"
-                    ]
-                },
-                {
-                    "id": "splanchnic_n-3",
-                    "models": "UBERON:0018681",
-                    "connects": [
-                        "splanchnic_n_start-9",
-                        "splanchnic_n_start-12"
-                    ],
-                    "contained-in": [
-                        "splanchnic_n_start-10",
-                        "splanchnic_n_start-11"
-                    ]
-                },
-                {
-                    "id": "splanchnic_n-4",
-                    "models": "UBERON:0001964",
-                    "connects": [
-                        "splanchnic_n_start-12",
-                        "splanchnic_n_start-13",
-                        "splanchnic_n_start-14",
-                        "splanchnic_n_branching_point"
-                    ],
-                    "contained-in": [
-                        "splanchnic"
-                    ]
-                },
-                {
-                    "id": "vagus_n-1",
+                    "id": "n_1",
                     "connects": [
                         "point_1",
-                        "ganglion_1-1"
-                    ],
-                    "contained-in": [
-                        "vagus"
+                        "plexus_7-1"
                     ]
                 },
                 {
-                    "id": "vagus_n-2",
+                    "id": "n_2",
                     "connects": [
-                        "ganglion_1-1",
-                        "ganglion_2-1"
-                    ],
-                    "contained-in": [
-                        "vagus"
+                        "ganglion_3-1",
+                        "plexus_7-1"
                     ]
                 },
                 {
-                    "id": "vagus_n-3",
+                    "id": "n_3",
                     "connects": [
-                        "ganglion_2-1",
-                        "point_11"
-                    ],
-                    "contained-in": [
-                        "vagus"
+                        "ganglion_3-1",
+                        "PVN_point_1"
                     ]
                 },
                 {
-                    "id": "vagus_n-4",
+                    "id": "n_4",
                     "connects": [
-                        "point_11",
-                        "point_14"
-                    ],
-                    "contained-in": [
-                        "vagus"
+                        "ganglion_3-1",
+                        "VC_point_1"
                     ]
                 },
                 {
-                    "id": "vagus_n-5",
+                    "id": "n_5",
                     "connects": [
-                        "point_14",
-                        "point_16"
-                    ],
-                    "contained-in": [
-                        "vagus"
+                        "ganglion_3-1",
+                        "SLN_point_1"
                     ]
                 },
                 {
-                    "id": "vagus_n-6",
+                    "id": "n_6",
                     "connects": [
-                        "point_16",
-                        "point_22"
-                    ],
-                    "contained-in": [
-                        "vagus"
+                        "plexus_1-1",
+                        "vagus_point_3"
                     ]
                 },
                 {
-                    "id": "vagus_n-7",
+                    "id": "n_7",
                     "connects": [
-                        "point_22",
-                        "point_26"
-                    ],
-                    "contained-in": [
-                        "vagus"
+                        "vagus_point_12",
+                        "ganglion_19-1"
                     ]
                 },
                 {
-                    "id": "vagus_n-8",
+                    "id": "n_8",
                     "connects": [
-                        "point_26",
-                        "point_44"
-                    ],
-                    "contained-in": [
-                        "vagus"
+                        "ganglion_3-1",
+                        "CVN_point_3"
                     ]
                 },
                 {
-                    "id": "vagus_n-9",
+                    "id": "n_9",
                     "connects": [
-                        "point_44",
-                        "point_30"
-                    ],
-                    "contained-in": [
-                        "vagus"
-                    ]
-                },
-                {
-                    "id": "vagus_n-10",
-                    "connects": [
-                        "point_30",
-                        "point_31"
-                    ],
-                    "contained-in": [
-                        "vagus"
-                    ]
-                },
-                {
-                    "id": "vagus_n-11",
-                    "connects": [
-                        "point_31",
-                        "point_32"
-                    ],
-                    "contained-in": [
-                        "vagus"
-                    ]
-                },
-                {
-                    "id": "vagus_n-12",
-                    "connects": [
-                        "point_32",
-                        "point_34"
-                    ],
-                    "contained-in": [
-                        "vagus"
-                    ]
-                },
-                {
-                    "id": "vagus_n-13",
-                    "connects": [
-                        "point_34",
-                        "point_35"
-                    ],
-                    "contained-in": [
-                        "vagus"
-                    ]
-                },
-                {
-                    "id": "vagus_n-14",
-                    "connects": [
-                        "point_35",
-                        "point_36"
-                    ],
-                    "contained-in": [
-                        "point_47",
-                        "vagus"
-                    ]
-                },
-                {
-                    "id": "lumbar_colonic",
-                    "connects": [
-                        "ganglion_5-1",
-                        "lumbar_end"
-                    ],
-                    "contained-in": [
-                        "LCN"
+                        "ganglion_3-1",
+                        "RLN_point_2"
                     ]
                 }
             ]
