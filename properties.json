@@ -3926,6 +3926,9 @@
         "plexus_11-1": {
             "class": "plexus_11"
         },
+        "plexus_12-1": {
+            "class": "plexus_12"
+        },
         "label_1-1": {
             "class": "label_1"
         },
@@ -6687,6 +6690,16 @@
                     "connects": [
                         "ganglion_3-1",
                         "RLN_point_2"
+                    ]
+                },
+                {
+                    "id": "n_10",
+                    "connects": [
+                        "ganglion_19-1",
+                        "splenic_branching_point"
+                    ],
+                    "contained-in": [
+                        "plexus_12-1"
                     ]
                 }
             ]
