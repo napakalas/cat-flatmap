@@ -4791,10 +4791,8 @@
                     "models": "ILX:0786059",
                     "connects": [
                         "vagus_point_2",
+                        "VC_point_1",
                         "VC_point_2"
-                    ],
-                    "contained-in": [
-                        "VC_point_1"
                     ]
                 },
                 {
@@ -4829,10 +4827,8 @@
                     "models": "UBERON:0011326",
                     "connects": [
                         "vagus_point_3",
+                        "SLN_point_1",
                         "SLN_point_2"
-                    ],
-                    "contained-in": [
-                        "SLN_point_1"
                     ]
                 },
                 {
@@ -4996,10 +4992,8 @@
                     "models": "ILX:0786680",
                     "connects": [
                         "vagus_point_4",
+                        "CVN_point_3",
                         "CVN_point_1"
-                    ],
-                    "contained-in": [
-                        "CVN_point_3"
                     ]
                 },
                 {
@@ -5047,10 +5041,8 @@
                     "models": "UBERON:0003716",
                     "connects": [
                         "vagus_point_5",
+                        "RLN_point_2",
                         "RLN_point_1"
-                    ],
-                    "contained-in": [
-                        "RLN_point_2"
                     ]
                 },
                 {
