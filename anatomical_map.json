@@ -312,11 +312,11 @@
         "name": "Bronchus"
     },
     "respiratory_26": {
-        "term": "FMA:67480",
+        "term": "ILX:0793764",
         "name": "Wall of Bronchus"
     },
     "respiratory_27": {
-        "term": "FMA:74655",
+        "term": "ILX:0793765",
         "name": "Wall of Bronchiole"
     },
     "respiratory_28": {
@@ -630,6 +630,10 @@
     "digestive_82": {
         "term": "UBERON:0001174",
         "name": "Common Bile Duct"
+    },
+    "digestive_83": {
+        "term": "UBERON:0013473",
+        "name": "Lower Esophagus"
     },
     "reproductive_1": {
         "term": "UBERON:0000995",
@@ -1342,6 +1346,10 @@
     "ganglion_19": {
         "term": "ILX:0793082",
         "name": "Celiac Ganglion-Superior Mesenteric Ganglion Complex"
+    },
+    "ganglion_20": {
+        "term": "ILX:0793550",
+        "name": "Mediastinal Ganglion"
     },
     "lung_2": {
         "term": "UBERON:0003715",
