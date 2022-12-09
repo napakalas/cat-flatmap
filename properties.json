@@ -6016,13 +6016,6 @@
                     ]
                 },
                 {
-                    "id": "pons_brngtn_cns",
-                    "connects": [
-                        "brain_26-1",
-                        "brain_13-1"
-                    ]
-                },
-                {
                     "id": "pons_medulla_cns",
                     "connects": [
                         "brain_26-1",
@@ -6596,41 +6589,6 @@
                     ]
                 },
                 {
-                    "id": "medulla_1",
-                    "connects": [
-                        "brain_33-1",
-                        "point_1"
-                    ]
-                },
-                {
-                    "id": "medulla_2",
-                    "connects": [
-                        "brain_12-1",
-                        "point_1"
-                    ]
-                },
-                {
-                    "id": "medulla_3",
-                    "connects": [
-                        "brain_34-1",
-                        "point_1"
-                    ]
-                },
-                {
-                    "id": "medulla_4",
-                    "connects": [
-                        "brain_44-1",
-                        "point_1"
-                    ]
-                },
-                {
-                    "id": "medulla_5",
-                    "connects": [
-                        "brain_48-1",
-                        "point_1"
-                    ]
-                },
-                {
                     "id": "medulla_6",
                     "connects": [
                         "brain_11-1",
@@ -6755,13 +6713,6 @@
                     "connects": [
                         "ganglion_3-1",
                         "SLN_point_1"
-                    ]
-                },
-                {
-                    "id": "n_6",
-                    "connects": [
-                        "plexus_1-1",
-                        "vagus_point_3"
                     ]
                 },
                 {
