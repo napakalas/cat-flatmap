@@ -5215,7 +5215,7 @@
                     "id": "GLN_1",
                     "models": "UBERON:0001649",
                     "connects": [
-                        "vagus_point_6",
+                        "point_49",
                         "ganglion_12-1"
                     ]
                 },
@@ -6586,7 +6586,14 @@
                     "id": "bolser_11",
                     "connects": [
                         "brain_12-1",
-                        "vagus_point_6"
+                        "point_49"
+                    ]
+                },
+                {
+                    "id": "bolser_31",
+                    "connects": [
+                        "point_44",
+                        "point_49"
                     ]
                 },
                 {
