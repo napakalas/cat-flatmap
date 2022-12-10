@@ -5876,6 +5876,11 @@
                     "connects": [
                         "L1_spinal",
                         "spinal_22-1/L1_ventral_root_end"
+                    ],
+                    "contained-in": [
+                        "S43_L1",
+                        "S48_L1",
+                        "S49_L1"
                     ]
                 },
                 {
@@ -5883,6 +5888,11 @@
                     "connects": [
                         "L2_spinal",
                         "spinal_23-1/L2_ventral_root_end"
+                    ],
+                    "contained-in": [
+                        "S43_L2",
+                        "S48_L2",
+                        "S49_L2"
                     ]
                 },
                 {
@@ -5929,22 +5939,18 @@
                 },
                 {
                     "id": "L6_gray_ramus-spinal_n",
+                    "models": "ILX:0739299",
                     "connects": [
                         "S46_L6",
                         "L6_spinal"
-                    ],
-                    "contained-in": [
-                        "S49_L6"
                     ]
                 },
                 {
                     "id": "S1_gray_ramus-spinal_n",
+                    "models": "ILX:0793228",
                     "connects": [
                         "S46_S1",
                         "S1_spinal"
-                    ],
-                    "contained-in": [
-                        "S49_S1"
                     ]
                 },
                 {
@@ -6314,8 +6320,7 @@
                     ],
                     "contained-in": [
                         "S43_L1",
-                        "S48_L1",
-                        "S50_L1"
+                        "S48_L1"
                     ]
                 },
                 {
@@ -6326,8 +6331,7 @@
                     ],
                     "contained-in": [
                         "S43_L2",
-                        "S48_L2",
-                        "S50_L2"
+                        "S48_L2"
                     ]
                 },
                 {
