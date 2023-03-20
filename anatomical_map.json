@@ -403,10 +403,6 @@
         "term": "UBERON:0001160",
         "name": "fundus of stomach"
     },
-    "digestive_20": {
-        "term": "UBERON:0012270",
-        "name": "forestomach-glandular stomach junction"
-    },
     "digestive_21": {
         "term": "UBERON:0001166",
         "name": "pylorus"
