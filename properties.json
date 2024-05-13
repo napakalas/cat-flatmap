@@ -1958,6 +1958,36 @@
             "type": "ganglion",
             "class": "auto-hide"
         },
+        "ganglion_21-1": {
+            "models": "UBERON:0003963",
+            "name": "Otic Ganglion",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "ganglion_22-1": {
+            "models": "ILX:0794733",
+            "name": "Ovarian nerve plexus sympathetic ganglion",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "ganglion_23-1": {
+            "models": "UBERON:0002058",
+            "name": "Main Ciliary Ganglion",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "ganglion_24-1": {
+            "models": "UBERON:0003962",
+            "name": "Pterygopalatine Ganglion",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "ganglion_25-1": {
+            "models": "UBERON:0001675",
+            "name": "Trigeminal Ganglion",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
         "body_1-1": {
             "class": "body_1"
         },
@@ -1990,6 +2020,27 @@
         },
         "body_9-1": {
             "class": "body_9"
+        },
+        "body_10-1": {
+            "class": "body_10"
+        },
+        "body_11-1": {
+            "class": "body_11"
+        },
+        "eye_1-1": {
+            "class": "eye_1"
+        },
+        "eye_2-1": {
+            "class": "eye_2"
+        },
+        "eye_3-1": {
+            "class": "eye_3"
+        },
+        "eye_4-1": {
+            "class": "eye_4"
+        },
+        "eye_5-1": {
+            "class": "eye_5"
         },
         "bolser_13-1": {
             "class": "bolser_13"
@@ -2197,6 +2248,12 @@
         },
         "brain_53-2": {
             "class": "brain_53"
+        },
+        "brain_54-1": {
+            "class": "brain_54"
+        },
+        "brain_55-1": {
+            "class": "brain_55"
         },
         "brain_6-1": {
             "class": "brain_6"
@@ -2628,6 +2685,9 @@
         "digestive_83-1": {
             "class": "digestive_83"
         },
+        "digestive_84-1": {
+            "class": "digestive_84"
+        },
         "digestive_9-1": {
             "class": "digestive_9"
         },
@@ -2808,6 +2868,36 @@
         },
         "reproductive_14-1": {
             "class": "reproductive_14"
+        },
+        "reproductive_15-1": {
+            "class": "reproductive_15"
+        },
+        "reproductive_16-1": {
+            "class": "reproductive_16"
+        },
+        "reproductive_17-1": {
+            "class": "reproductive_17"
+        },
+        "reproductive_18-1": {
+            "class": "reproductive_18"
+        },
+        "reproductive_19-1": {
+            "class": "reproductive_19"
+        },
+        "reproductive_20-1": {
+            "class": "reproductive_20"
+        },
+        "reproductive_21-1": {
+            "class": "reproductive_21"
+        },
+        "reproductive_22-1": {
+            "class": "reproductive_22"
+        },
+        "reproductive_23-1": {
+            "class": "reproductive_23"
+        },
+        "reproductive_24-1": {
+            "class": "reproductive_24"
         },
         "respiratory_10-1": {
             "class": "respiratory_10"
@@ -4014,6 +4104,30 @@
         "plexus_12-1": {
             "models": "ILX:0793563",
             "name": "Splenic Nerve Plexus",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "plexus_13-1": {
+            "models": "UBERON:0002013",
+            "name": "Superior hypogastric nerve plexus",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "plexus_14-1": {
+            "models": "ILX:0793832",
+            "name": "Ovarian Nerve Plexus",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "plexus_15-1": {
+            "models": "ILX:0793706",
+            "name": "Tympanic plexus",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "plexus_16-1": {
+            "models": "UBERON:0011194",
+            "name": "Ophthalmic plexus",
             "type": "ganglion",
             "class": "auto-hide"
         },
@@ -5656,6 +5770,28 @@
                     ]
                 },
                 {
+                    "id": "C1_ventral_root",
+                    "connects": [
+                        "C1_spinal",
+                        "spinal_1-1/C1_ventral_root_end"
+                    ],
+                    "contained-in": [
+                        "S43_C1",
+                        "S50_C1"
+                    ]
+                },
+                {
+                    "id": "C2_ventral_root",
+                    "connects": [
+                        "C2_spinal",
+                        "spinal_2-1/C2_ventral_root_end"
+                    ],
+                    "contained-in": [
+                        "S43_C2",
+                        "S50_C2"
+                    ]
+                },
+                {
                     "id": "C3_ventral_root",
                     "connects": [
                         "C3_spinal",
@@ -5686,6 +5822,39 @@
                     "contained-in": [
                         "S43_C5",
                         "S50_C5"
+                    ]
+                },
+                {
+                    "id": "C6_ventral_root",
+                    "connects": [
+                        "C6_spinal",
+                        "spinal_6-1/C6_ventral_root_end"
+                    ],
+                    "contained-in": [
+                        "S43_C6",
+                        "S50_C6"
+                    ]
+                },
+                {
+                    "id": "C7_ventral_root",
+                    "connects": [
+                        "C7_spinal",
+                        "spinal_7-1/C7_ventral_root_end"
+                    ],
+                    "contained-in": [
+                        "S43_C7",
+                        "S50_C7"
+                    ]
+                },
+                {
+                    "id": "C8_ventral_root",
+                    "connects": [
+                        "C8_spinal",
+                        "spinal_8-1/C8_ventral_root_end"
+                    ],
+                    "contained-in": [
+                        "S43_C8",
+                        "S50_C8"
                     ]
                 },
                 {
@@ -6783,6 +6952,136 @@
                     ],
                     "contained-in": [
                         "plexus_12-1"
+                    ]
+                },
+                {
+                    "id": "tympanic",
+                    "models": "UBERON:0036216",
+                    "connects": [
+                        "ganglion_12-1",
+                        "plexus_15-1"
+                    ]
+                },
+                {
+                    "id": "less_pet",
+                    "models": "ILX:0793722",
+                    "connects": [
+                        "plexus_15-1",
+                        "point_50"
+                    ]
+                },
+                {
+                    "id": "CNVII",
+                    "models": "UBERON:0001647",
+                    "connects": [
+                        "brain_54-1",
+                        "pet_branching_point-2"
+                    ]
+                },
+                {
+                    "id": "deep_pet",
+                    "models": "ILX:0793713",
+                    "connects": [
+                        "plexus_7-1",
+                        "pet_branching_point-1"
+                    ]
+                },
+                {
+                    "id": "great_pet",
+                    "models": "ILX:0793702",
+                    "connects": [
+                        "pet_branching_point-2",
+                        "pet_branching_point-1"
+                    ]
+                },
+                {
+                    "id": "vidian",
+                    "models": "UBERON:0018412",
+                    "connects": [
+                        "pet_branching_point-1",
+                        "vidian_branching_point"
+                    ]
+                },
+                {
+                    "id": "ophthalmic",
+                    "models": "UBERON:0000348",
+                    "connects": [
+                        "ganglion_25-1",
+                        "ophthalmic_branching_point"
+                    ]
+                },
+                {
+                    "id": "lacrimal",
+                    "models": "",
+                    "connects": [
+                        "ophthalmic_branching_point",
+                        "lacrimal_branching_point",
+                        "eye_1-1"
+                    ]
+                },
+                {
+                    "id": "maxillary",
+                    "models": "UBERON:0000377",
+                    "connects": [
+                        "ganglion_25-1",
+                        "maxillary_branching_point"
+                    ]
+                },
+                {
+                    "id": "zygomatic",
+                    "models": "",
+                    "connects": [
+                        "maxillary_branching_point",
+                        "zygomatic_branching_point",
+                        "eye_1-1"
+                    ]
+                },
+                {
+                    "id": "lacrimal_zygomatic",
+                    "models": "ILX:0793711",
+                    "connects": [
+                        "lacrimal_branching_point",
+                        "maxillary_branching_point"
+                    ]
+                },
+                {
+                    "id": "long_ciliary",
+                    "models": "UBERON:0022301",
+                    "connects": [
+                        "plexus_16-1",
+                        "eye_4-1"
+                    ]
+                },
+                {
+                    "id": "short_ciliary",
+                    "models": "UBERON:0022302",
+                    "connects": [
+                        "plexus_16-1",
+                        "eye_4-1"
+                    ]
+                },
+                {
+                    "id": "nasopalatine",
+                    "models": "UBERON:0008810",
+                    "connects": [
+                        "ganglion_24-1",
+                        "body_11-1"
+                    ]
+                },
+                {
+                    "id": "auriculotemporal",
+                    "models": "ILX:0793723",
+                    "connects": [
+                        "digestive_6-1",
+                        "ganglion_21-1"
+                    ]
+                },
+                {
+                    "id": "oculomotor",
+                    "models": "UBERON:0001643",
+                    "connects": [
+                        "brain_55-1",
+                        "oculomotor_branching_point"
                     ]
                 }
             ]
