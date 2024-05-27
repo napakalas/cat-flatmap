@@ -452,23 +452,6 @@
     },
     {
         "id": [
-            "UBERON:0007240",
-            [
-                "UBERON:0000947"
-            ]
-        ],
-        "name": "tunica adventitia of artery/aorta",
-        "aliases": [
-            [
-                "UBERON:0007240",
-                [
-                    "UBERON:0001496"
-                ]
-            ]
-        ]
-    },
-    {
-        "id": [
             "ILX:0793234",
             []
         ],
@@ -1388,7 +1371,7 @@
     },
     {
         "id": [
-            " UBERON:0006466",
+            "UBERON:0006466",
             []
         ],
         "name": "ventral root of the tenth thoracic spinal cord segment",
