@@ -4869,7 +4869,7 @@
                     "models": "FMA:6231",
                     "connects": [
                         "ganglion_1-1",
-                        "label_1-1"
+                        "meningeal_vagus_1_branching_point"
                     ]
                 },
                 {
@@ -4901,7 +4901,7 @@
                     "models": "ILX:0784868",
                     "connects": [
                         "AVN_point_1",
-                        "label_2-1"
+                        "auricular_vagus_4_branching_point"
                     ]
                 },
                 {
@@ -4909,7 +4909,7 @@
                     "models": "ILX:0785937",
                     "connects": [
                         "AVN_point_1",
-                        "label_3-1"
+                        "auricular_vagus_5_branching_point"
                     ]
                 },
                 {
@@ -4917,7 +4917,7 @@
                     "models": "ILX:0788968",
                     "connects": [
                         "AVN_point_1",
-                        "label_4-1"
+                        "auricular_vagus_6_branching_point"
                     ]
                 },
                 {
