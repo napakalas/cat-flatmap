@@ -2899,6 +2899,12 @@
         "reproductive_24-1": {
             "class": "reproductive_24"
         },
+        "reproductive_25-1": {
+            "class": "reproductive_25"
+        },
+        "reproductive_26-1": {
+            "class": "reproductive_26"
+        },
         "respiratory_10-1": {
             "class": "respiratory_10"
         },
@@ -4863,7 +4869,7 @@
                     "models": "FMA:6231",
                     "connects": [
                         "ganglion_1-1",
-                        "label_1-1"
+                        "meningeal_vagus_1_branching_point"
                     ]
                 },
                 {
@@ -4895,7 +4901,7 @@
                     "models": "ILX:0784868",
                     "connects": [
                         "AVN_point_1",
-                        "label_2-1"
+                        "auricular_vagus_4_branching_point"
                     ]
                 },
                 {
@@ -4903,7 +4909,7 @@
                     "models": "ILX:0785937",
                     "connects": [
                         "AVN_point_1",
-                        "label_3-1"
+                        "auricular_vagus_5_branching_point"
                     ]
                 },
                 {
@@ -4911,7 +4917,7 @@
                     "models": "ILX:0788968",
                     "connects": [
                         "AVN_point_1",
-                        "label_4-1"
+                        "auricular_vagus_6_branching_point"
                     ]
                 },
                 {
@@ -5097,7 +5103,7 @@
                     "models": "ILX:0788232",
                     "connects": [
                         "SLN_point_4",
-                        "plexus_2-1"
+                        "SLN_15_branching_point"
                     ]
                 },
                 {
@@ -5160,7 +5166,7 @@
                     "models": "ILX:0788259",
                     "connects": [
                         "CVN_point_2",
-                        "plexus_3-1"
+                        "CVN_3_branching_point"
                     ]
                 },
                 {
@@ -5168,7 +5174,7 @@
                     "models": "ILX:0784874",
                     "connects": [
                         "CVN_point_2",
-                        "plexus_3-1"
+                        "CVN_4_branching_point"
                     ]
                 },
                 {
@@ -5176,7 +5182,7 @@
                     "models": "ILX:0791784",
                     "connects": [
                         "CVN_point_1",
-                        "plexus_3-1"
+                        "CVN_5_branching_point"
                     ]
                 },
                 {
@@ -5184,7 +5190,7 @@
                     "models": "ILX:0785405",
                     "connects": [
                         "CVN_point_1",
-                        "plexus_3-1"
+                        "CVN_6_branching_point"
                     ]
                 },
                 {
@@ -5362,7 +5368,7 @@
                     "models": "ILX:0789095",
                     "connects": [
                         "vagus_point_7",
-                        "plexus_4-1"
+                        "PLM_1_branching_point"
                     ]
                 },
                 {
@@ -7032,8 +7038,7 @@
                     "models": "",
                     "connects": [
                         "maxillary_branching_point",
-                        "zygomatic_branching_point",
-                        "eye_1-1"
+                        "zygomatic_branching_point"
                     ]
                 },
                 {

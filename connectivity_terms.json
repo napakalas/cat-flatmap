@@ -462,7 +462,7 @@
                 []
             ],
             [
-                "ILX:0739241'",
+                "ILX:0739241",
                 []
             ]
         ]
@@ -707,17 +707,18 @@
                 []
             ],
             [
-                "ILX:0794764'",
+                "ILX:0794764",
                 []
             ],
             [
-                "UBERON:0005488'",
+                "UBERON:0005488",
                 []
             ],
             [
-                "ILX:0794732'",
+                "ILX:0794732",
                 []
-            ],[
+            ],
+            [
                 "UBERON:0035772",
                 []
             ],
@@ -858,20 +859,6 @@
     },
     {
         "id": [
-            "UBERON:0000988",
-            [
-                "UBERON:0001896"
-            ]
-        ],
-        "aliases": [
-            [
-                "UBERON:0002149",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
             "ILX:0786272",
             []
         ],
@@ -909,7 +896,7 @@
     },
     {
         "id": [
-            "ILX:0739296",
+            "ILX:0786141",
             []
         ],
         "aliases": [
@@ -1040,19 +1027,6 @@
         "aliases": [
             [
                 "UBERON:0002872",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0002364",
-            []
-        ],
-        "name": "tympanic membrane",
-        "aliases": [
-            [
-                "UBERON:0036216",
                 []
             ]
         ]
@@ -1211,13 +1185,10 @@
             "UBERON:0000992",
             []
         ],
+        "name": "ovary",
         "aliases": [
             [
                 "ILX:0793822",
-                []
-            ],
-            [
-                "UBERON:0001190",
                 []
             ],
             [
@@ -1226,6 +1197,14 @@
             ],
             [
                 "UBERON:0006960",
+                []
+            ],
+            [
+                "ILX:0793833",
+                []
+            ],
+            [
+                "ILX:0793832",
                 []
             ]
         ]
@@ -1252,18 +1231,6 @@
         "aliases": [
             [
                 "ILX:0793700",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "ILX:0738432",
-            []
-        ],
-        "aliases": [
-            [
-                "ILX:0793804",
                 []
             ]
         ]
@@ -1399,32 +1366,12 @@
             [
                 "ILX:0793808",
                 []
-            ],
-            [
-                "UBERON:0004223",
-                []
-            ],
-            [
-                "UBERON:0001344",
-                []
             ]
         ]
     },
     {
         "id": [
-            "UBERON:0000992",
-            []
-        ],
-        "aliases": [
-            [
-                "ILX:0793833",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "ILX:0788670",
+            "UBERON:0006466",
             []
         ],
         "name": "ventral root of the tenth thoracic spinal cord segment",
@@ -1470,19 +1417,6 @@
         "aliases": [
             [
                 "ILX:0793813",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0000992",
-            []
-        ],
-        "name": "ovary",
-        "aliases": [
-            [
-                "ILX:0793832",
                 []
             ]
         ]
@@ -1552,6 +1486,10 @@
         "aliases": [
             [
                 "ILX:0793877",
+                []
+            ],
+            [
+                "ILX:0793804",
                 []
             ]
         ]
@@ -1739,6 +1677,205 @@
         "aliases": [
             [
                 "UBERON:0015173",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "ILX:0793769",
+            ["UBERON:0003889"]
+        ],
+        "name": "smooth muscle/fallopian tube",
+        "aliases": [
+            [
+                "ILX:0794735",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0001981",
+            ["UBERON:0003889"]
+        ],
+        "name": "blood vessel/fallopian tube",
+        "aliases": [
+            [
+                "ILX:0794736",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0009853",
+            []
+        ],
+        "name": "body of uterus",
+        "aliases": [
+            [
+                "ILX:0794769",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0000002",
+            []
+        ],
+        "name": "uterine cervix",
+        "aliases": [
+            [
+                "ILX:0794770",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0004223",
+            []
+        ],
+        "name": "smooth muscle/vagina",
+        "aliases": [
+            [
+                "ILX:0794731",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0001981",
+            ["UBERON:0000996"]
+        ],
+        "name": "blood vessel/",
+        "aliases": [
+            [
+                "ILX:0794734",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0002411",
+            []
+        ],
+        "name": "clitoris",
+        "aliases": [
+            [
+                "UBERON:0008323",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0001981",
+            ["UBERON:0000002"]
+        ],
+        "name": "blood vessel/uterine cervix",
+        "aliases": [
+            [
+                "ILX:0794738",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "ILX:0793769",
+            ["UBERON:0000002"]
+        ],
+        "name": "smooth muscle/uterine cervix",
+        "aliases": [
+            [
+                "ILX:0794768",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0001981",
+            ["UBERON:0000002"]
+        ],
+        "name": "blood vessel/uterine cervix",
+        "aliases": [
+            [
+                "ILX:0794766",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "ILX:0793769",
+            ["UBERON:0009853"]
+        ],
+        "name": "smooth muscle/body of uterus",
+        "aliases": [
+            [
+                "ILX:0794767",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0001981",
+            ["UBERON:0009853"]
+        ],
+        "name": "blood vessel/body of uterus",
+        "aliases": [
+            [
+                "ILX:0794765",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0006463",
+            []
+        ],
+        "name": "S4 segment of sacral spinal cord",
+        "aliases": [
+            [
+                "ILX:0793881",
+                []
+            ],
+            [
+                "ILX:0793802",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0001647",
+            []
+        ],
+        "name": "Facial nerve",
+        "aliases": [
+            [
+                "UBERON:0009675",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0001981",
+            ["UBERON:0000995"]
+        ],
+        "name": "blood vessel/uterus",
+        "aliases": [
+            [
+                "ILX:0794737",
                 []
             ]
         ]
