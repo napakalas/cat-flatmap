@@ -559,13 +559,36 @@
     },
     {
         "id": [
-            "UBERON:0007240",
-            [
-                "UBERON:0001264"
-            ]
+            "UBERON:0001193",
+            []
         ],
-        "name": "tunica adventitia of artery/pancreas",
+        "name": "hepatic artery",
         "aliases": [
+            [
+                "UBERON:0005734",
+                [
+                    "UBERON:0001193"
+                ]
+            ],
+            [
+                "ILX:0793676",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "UBERON:0001195",
+            []
+        ],
+        "name": "Inferior pancreatocoduodenal artery",
+        "aliases": [
+            [
+                "UBERON:0005734",
+                [
+                    "UBERON:0001195"
+                ]
+            ],
             [
                 "ILX:0793674",
                 []
@@ -574,119 +597,19 @@
     },
     {
         "id": [
-            "UBERON:0007240",
-            [
-                "UBERON:0035965",
-                "UBERON:0002107"
-            ]
+            "UBERON:0001194",
+            []
         ],
-        "name": "tunica adventitia of artery/wall of blood vessel/liver",
-        "aliases": [
-            [
-                "UBERON:0005734",
-                [
-                    "UBERON:0001193"
-                ]
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0007240",
-            [
-                "UBERON:0035965",
-                "ILX:0793082"
-            ]
-        ],
-        "name": "tunica adventitia of artery/wall of blood vessel/celiac ganglion- superior mesenteric ganglion complex",
-        "aliases": [
-            [
-                "UBERON:0005734",
-                [
-                    "UBERON:0006637"
-                ]
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0007240",
-            [
-                "UBERON:0035965",
-                "UBERON:0001264"
-            ]
-        ],
-        "name": "tunica adventitia of artery/wall of blood vessel/pancreas",
-        "aliases": [
-            [
-                "UBERON:0005734",
-                [
-                    "UBERON:0001195"
-                ]
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0007240",
-            [
-                "ILX:0793563"
-            ]
-        ],
-        "name": "tunica adventitia of artery/splenic nerve",
-        "aliases": [
-            [
-                "ILX:0793673",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0007240",
-            [
-                "UBERON:0035965",
-                "ILX:0793082"
-            ]
-        ],
-        "name": "tunica adventitia of artery/wall of blood vessel/celiac ganglion- superior mesenteric ganglion complex",
-        "aliases": [
-            [
-                "UBERON:0005734",
-                [
-                    "UBERON:0001182"
-                ]
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0007240",
-            [
-                "ILX:0793563"
-            ]
-        ],
-        "name": "tunica adventitia of artery/splenic nerve",
+        "name": "splenic artery",
         "aliases": [
             [
                 "UBERON:0005734",
                 [
                     "UBERON:0001194"
                 ]
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0007240",
+            ],
             [
-                "UBERON:0002107"
-            ]
-        ],
-        "name": "tunica adventitia of artery/liver",
-        "aliases": [
-            [
-                "ILX:0793676",
+                "ILX:0793673",
                 []
             ]
         ]
@@ -737,18 +660,18 @@
             [
                 "UBERON:0002010",
                 []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0001264",
-            []
-        ],
-        "aliases": [
+            ],
             [
-                "UBERON:0000006",
-                []
+                "UBERON:0005734",
+                [
+                    "UBERON:0006637"
+                ]
+            ],
+            [
+                "UBERON:0005734",
+                [
+                    "UBERON:0001182"
+                ]
             ]
         ]
     },
@@ -767,12 +690,10 @@
     },
     {
         "id": [
-            "UBERON:0002384",
-            [
-                "UBERON:0001264"
-            ]
+            "UBERON:0001263",
+            []
         ],
-        "name": "connective tissue/pancreas",
+        "name": "pancreatic acinus",
         "aliases": [
             [
                 "UBERON:0002384",
@@ -786,7 +707,7 @@
         "id": [
             "UBERON:0000483",
             [
-                "UBERON:0001264"
+                "UBERON:0001263"
             ]
         ],
         "name": "epithelium/pancreas",
@@ -796,18 +717,7 @@
                 [
                     "UBERON:0001263"
                 ]
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0000483",
-            [
-                "UBERON:0001264"
-            ]
-        ],
-        "name": "epithelium/pancreas",
-        "aliases": [
+            ],
             [
                 "UBERON:0005769",
                 [
@@ -1009,7 +919,7 @@
     },
     {
         "id": [
-            "UBERON:0002108",
+            "UBERON:0002115",
             []
         ],
         "aliases": [
@@ -1121,10 +1031,6 @@
         ],
         "name": "ovary",
         "aliases": [
-            [
-                "ILX:0793822",
-                []
-            ],
             [
                 "UBERON:0001305",
                 []
@@ -1681,6 +1587,19 @@
         "aliases": [
             [
                 "ILX:0794737",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "ILX:0793832",
+            []
+        ],
+        "name": "Ovarian Nerve Plexus",
+        "aliases":[
+            [
+                "ILX:0793822",
                 []
             ]
         ]

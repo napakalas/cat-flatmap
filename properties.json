@@ -2706,6 +2706,21 @@
         "digestive_86-1": {
             "class": "digestive_86"
         },
+        "digestive_87-1": {
+            "class": "digestive_87"
+        },
+        "digestive_88-1": {
+            "class": "digestive_88"
+        },
+        "digestive_89-1": {
+            "class": "digestive_89"
+        },
+        "digestive_90-1": {
+            "class": "digestive_90"
+        },
+        "digestive_91-1": {
+            "class": "digestive_91"
+        },
         "digestive_9-1": {
             "class": "digestive_9"
         },
@@ -2937,6 +2952,9 @@
         },
         "reproductive_30-1": {
             "class": "reproductive_30"
+        },
+        "reproductive_31-1": {
+            "class": "reproductive_31"
         },
         "respiratory_10-1": {
             "class": "respiratory_10"

@@ -632,8 +632,8 @@
         "name": "Lower Esophagus"
     },
     "digestive_84": {
-        "term": "UBERON:0002384",
-        "name": "Connective tissue"
+        "term": "UBERON:0001263",
+        "name": "Pancreatic acinus"
     },
     "digestive_85": {
         "term": "UBERON:0001832",
@@ -643,7 +643,27 @@
         "term": "UBERON:0002059",
         "name": "Submandibular ganglion"
     },
-    "reproductive_1": {
+    "digestive_87": {
+        "term": "UBERON:0000483",
+        "name": "epithelium"
+    },
+    "digestive_88": {
+        "term": "UBERON:0000006",
+        "name": "Islet of langerhans"
+    },
+    "digestive_89": {
+        "term": "UBERON:0001193",
+        "name": "Hepatic artery"
+    },
+    "digestive_90": {
+        "term": "UBERON:0001194",
+        "name": "Splenic artery"
+    },
+    "digestive_91": {
+        "term": "UBERON:0001195",
+        "name": "Inferior pancreaticoduodenal artery"
+    },
+	"reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"
     },
@@ -762,6 +782,10 @@
     "reproductive_30": {
         "term": "ILX:0794735",
         "name": "Smooth muscle of the isthmus of the Fallopian tube"
+    },
+    "reproductive_31": {
+        "term": "UBERON:0002493",
+        "name": "Uterine artery"
     },
     "muscle_1": {
         "term": "ILX:0738319",
