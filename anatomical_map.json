@@ -635,6 +635,14 @@
         "term": "UBERON:0002384",
         "name": "Connective tissue"
     },
+    "digestive_85": {
+        "term": "UBERON:0001832",
+        "name": "Sublingual gland"
+    },
+    "digestive_86": {
+        "term": "UBERON:0002059",
+        "name": "Submandibular ganglion"
+    },
     "reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"

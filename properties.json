@@ -2481,6 +2481,12 @@
         "digestive_3-1": {
             "class": "digestive_3"
         },
+        "digestive_31-1": {
+            "class": "digestive_31"
+        },
+        "digestive_33-1": {
+            "class": "digestive_33"
+        },
         "digestive_34-1": {
             "class": "digestive_34"
         },
@@ -2693,6 +2699,12 @@
         },
         "digestive_84-1": {
             "class": "digestive_84"
+        },
+        "digestive_85-1": {
+            "class": "digestive_85"
+        },
+        "digestive_86-1": {
+            "class": "digestive_86"
         },
         "digestive_9-1": {
             "class": "digestive_9"
