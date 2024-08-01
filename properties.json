@@ -7054,7 +7054,7 @@
                 },
                 {
                     "id": "lacrimal",
-                    "models": "",
+                    "models": "UBERON:0011096",
                     "connects": [
                         "ophthalmic_branching_point",
                         "lacrimal_branching_point",
@@ -7071,7 +7071,7 @@
                 },
                 {
                     "id": "zygomatic",
-                    "models": "",
+                    "models": "ILX:0793712",
                     "connects": [
                         "maxillary_branching_point",
                         "zygomatic_branching_point"
@@ -7082,7 +7082,7 @@
                     "models": "ILX:0793711",
                     "connects": [
                         "lacrimal_branching_point",
-                        "maxillary_branching_point"
+                        "zygomatic_branching_point"
                     ]
                 },
                 {
