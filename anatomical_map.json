@@ -739,6 +739,22 @@
         "term": "UBERON:0002118",
         "name": "Right ovary"
     },
+    "reproductive_27": {
+        "term": "UBERON:0012648",
+        "name": "Ampulla of uterine tube"
+    },
+    "reproductive_28": {
+        "term": "UBERON:8410010",
+        "name": "Fimbria of uterine tube"
+    },
+    "reproductive_29": {
+        "term": "ILX:0794736",
+        "name": "Blood vessel of the isthmus of the Fallopian tube"
+    },
+    "reproductive_30": {
+        "term": "ILX:0794735",
+        "name": "Smooth muscle of the isthmus of the Fallopian tube"
+    },
     "muscle_1": {
         "term": "ILX:0738319",
         "name": "T1-T2 intercostal muscle"
@@ -1086,6 +1102,10 @@
     "spinal_68": {
         "term": "ILX:0738371",
         "name": "Rexed Lamina VII of T1"
+    },
+    "spinal_69": {
+        "term": "UBERON:0006463",
+        "name": "S4 segment of sacral spinal cord"
     },
     "brain_1": {
         "term": "UBERON:0001898",

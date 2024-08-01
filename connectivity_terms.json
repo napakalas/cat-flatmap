@@ -1198,14 +1198,6 @@
             [
                 "UBERON:0006960",
                 []
-            ],
-            [
-                "ILX:0793833",
-                []
-            ],
-            [
-                "ILX:0793832",
-                []
             ]
         ]
     },
@@ -1275,32 +1267,6 @@
     },
     {
         "id": [
-            "UBERON:0000998",
-            [
-                "UBERON:0002367"
-            ]
-        ],
-        "aliases": [
-            [
-                "ILX:0793806",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0000057",
-            []
-        ],
-        "aliases": [
-            [
-                "UBERON:0004713",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
             "UBERON:0005303",
             []
         ],
@@ -1314,57 +1280,25 @@
     },
     {
         "id": [
-            "UBERON:0000057",
+            "ILX:0793141",
             []
         ],
-        "aliases": [
-            [
-                "UBERON:0011183",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0000057",
-            []
-        ],
-        "aliases": [
-            [
-                "ILX:0793807",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0000057",
-            []
-        ],
-        "name": "urethra",
+        "name": "urethral rhabdosphincter",
         "aliases": [
             [
                 "UBERON:0002366",
                 []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0000996",
-            []
-        ],
-        "aliases": [
+            ],
             [
-                "ILX:0793809",
+                "UBERON:0004713",
                 []
             ],
             [
-                "UBERON:0006608",
+                "UBERON:0011183",
                 []
             ],
             [
-                "ILX:0793808",
+                "ILX:0793807",
                 []
             ]
         ]
@@ -1611,59 +1545,12 @@
     },
     {
         "id": [
-            "UBERON:0000998",
-            []
-        ],
-        "name": "seminal vesicle",
-        "aliases": [
-            [
-                "UBERON:0004805",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
             "UBERON:0016508",
             []
         ],
         "aliases": [
             [
                 "ILX:0793884",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0000998",
-            []
-        ],
-        "name": "seminal vesicle",
-        "aliases": [
-            [
-                "UBERON:0004665",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0003889",
-            []
-        ],
-        "name": "fallopian tube",
-        "aliases": [
-            [
-                "UBERON:0003984",
-                []
-            ],
-            [
-                "UBERON:0012648",
-                []
-            ],
-            [
-                "UBERON:8410010",
                 []
             ]
         ]
@@ -1677,32 +1564,6 @@
         "aliases": [
             [
                 "UBERON:0015173",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "ILX:0793769",
-            ["UBERON:0003889"]
-        ],
-        "name": "smooth muscle/fallopian tube",
-        "aliases": [
-            [
-                "ILX:0794735",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0001981",
-            ["UBERON:0003889"]
-        ],
-        "name": "blood vessel/fallopian tube",
-        "aliases": [
-            [
-                "ILX:0794736",
                 []
             ]
         ]
@@ -1749,9 +1610,11 @@
     {
         "id": [
             "UBERON:0001981",
-            ["UBERON:0000996"]
+            [
+                "UBERON:0000996"
+            ]
         ],
-        "name": "blood vessel/",
+        "name": "blood vessel/vagina",
         "aliases": [
             [
                 "ILX:0794734",
@@ -1766,6 +1629,14 @@
         ],
         "name": "clitoris",
         "aliases": [
+            [
+                "ILX:0793809",
+                []
+            ],
+            [
+                "UBERON:0006608",
+                []
+            ],
             [
                 "UBERON:0008323",
                 []
