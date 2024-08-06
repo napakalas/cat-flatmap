@@ -1988,6 +1988,12 @@
             "type": "ganglion",
             "class": "auto-hide"
         },
+        "ganglion_26-1": {
+            "models": "ILX:0793833",
+            "name": "Ovarian nerve plexus parasympathetic ganglion",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
         "body_1-1": {
             "class": "body_1"
         },
@@ -2475,6 +2481,12 @@
         "digestive_3-1": {
             "class": "digestive_3"
         },
+        "digestive_31-1": {
+            "class": "digestive_31"
+        },
+        "digestive_33-1": {
+            "class": "digestive_33"
+        },
         "digestive_34-1": {
             "class": "digestive_34"
         },
@@ -2688,6 +2700,27 @@
         "digestive_84-1": {
             "class": "digestive_84"
         },
+        "digestive_85-1": {
+            "class": "digestive_85"
+        },
+        "digestive_86-1": {
+            "class": "digestive_86"
+        },
+        "digestive_87-1": {
+            "class": "digestive_87"
+        },
+        "digestive_88-1": {
+            "class": "digestive_88"
+        },
+        "digestive_89-1": {
+            "class": "digestive_89"
+        },
+        "digestive_90-1": {
+            "class": "digestive_90"
+        },
+        "digestive_91-1": {
+            "class": "digestive_91"
+        },
         "digestive_9-1": {
             "class": "digestive_9"
         },
@@ -2869,6 +2902,9 @@
         "reproductive_14-1": {
             "class": "reproductive_14"
         },
+        "reproductive_14-2": {
+            "class": "reproductive_14"
+        },
         "reproductive_15-1": {
             "class": "reproductive_15"
         },
@@ -2904,6 +2940,21 @@
         },
         "reproductive_26-1": {
             "class": "reproductive_26"
+        },
+        "reproductive_27-1": {
+            "class": "reproductive_27"
+        },
+        "reproductive_28-1": {
+            "class": "reproductive_28"
+        },
+        "reproductive_29-1": {
+            "class": "reproductive_29"
+        },
+        "reproductive_30-1": {
+            "class": "reproductive_30"
+        },
+        "reproductive_31-1": {
+            "class": "reproductive_31"
         },
         "respiratory_10-1": {
             "class": "respiratory_10"
@@ -3957,6 +4008,9 @@
         "spinal_65-1": {
             "class": "spinal_65"
         },
+        "spinal_69-1": {
+            "class": "spinal_69"
+        },
         "urinary_10-1": {
             "class": "urinary_10"
         },
@@ -4134,6 +4188,18 @@
         "plexus_16-1": {
             "models": "UBERON:0011194",
             "name": "Ophthalmic plexus",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "plexus_17-1": {
+            "models": "ILX:0793806",
+            "name": "Prostatic nerve plexus",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "plexus_18-1": {
+            "models": "ILX:0793808",
+            "name": "Uterovaginal nerve plexus ",
             "type": "ganglion",
             "class": "auto-hide"
         },
@@ -7018,7 +7084,7 @@
                 },
                 {
                     "id": "lacrimal",
-                    "models": "",
+                    "models": "UBERON:0011096",
                     "connects": [
                         "ophthalmic_branching_point",
                         "lacrimal_branching_point",
@@ -7035,7 +7101,7 @@
                 },
                 {
                     "id": "zygomatic",
-                    "models": "",
+                    "models": "ILX:0793712",
                     "connects": [
                         "maxillary_branching_point",
                         "zygomatic_branching_point"
@@ -7046,7 +7112,7 @@
                     "models": "ILX:0793711",
                     "connects": [
                         "lacrimal_branching_point",
-                        "maxillary_branching_point"
+                        "zygomatic_branching_point"
                     ]
                 },
                 {
