@@ -2730,6 +2730,9 @@
         "digestive_91-1": {
             "class": "digestive_91"
         },
+        "digestive_92-1": {
+            "class": "digestive_92"
+        },
         "digestive_9-1": {
             "class": "digestive_9"
         },
@@ -4221,6 +4224,18 @@
         "plexus_18-1": {
             "models": "ILX:0793808",
             "name": "Uterovaginal nerve plexus ",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "plexus_19-1": {
+            "models": "ILX:0771304",
+            "name": "Hepatic plexus",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "plexus_20-1": {
+            "models": "ILX:0795011",
+            "name": "periarterial neural plexus of the common hepatic artery",
             "type": "ganglion",
             "class": "auto-hide"
         },
