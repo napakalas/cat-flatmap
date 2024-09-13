@@ -1352,6 +1352,14 @@
         "S44_T13": {
             "class": "spinal_44"
         },
+        "S44_T13_L": {
+            "models": "ILX:0795050",
+            "name": "Posterior root of left thirteenth thoracic nerve"
+        },
+        "S44_T13_R": {
+            "models": "ILX:0795049",
+            "name": "Posterior root of right thirteenth thoracic nerve"
+        },
         "S44_S1": {
             "class": "spinal_44"
         },
