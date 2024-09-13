@@ -4080,6 +4080,18 @@
         "urinary_17-1": {
             "class": "urinary_17"
         },
+        "urinary_18-1": {
+            "class": "urinary_18"
+        },
+        "urinary_19-1": {
+            "class": "urinary_19"
+        },
+        "urinary_21-1": {
+            "class": "urinary_21"
+        },
+        "urinary_22-1": {
+            "class": "urinary_22"
+        },
         "ganglion_1-1": {
             "models": "UBERON:0005364",
             "name": "superior vagus X ganglion",
