@@ -1256,15 +1256,25 @@
             "class": "spinal_44"
         },
         "S44_L1": {
+            "class": "spinal_44"
+        },
+        "S44_L1-1": {
             "models": "ILX:0787779",
-            "name": "Anterior root of first lumbar nerve"
+            "name": "posterior root of first lumbar nerve"
         },
         "S44_L2": {
+            "class": "spinal_44"
+        },
+        "S44_L2-1": {
             "models": "ILX:0792058",
-            "name": "Anterior root of second lumbar nerve"
+            "name": "posterior root of second lumbar nerve"
         },
         "S44_L3": {
             "class": "spinal_44"
+        },
+        "S44_L3-1": {
+            "models": "ILX:0787227",
+            "name": "posterior root of third lumbar nerve"
         },
         "S44_L4": {
             "class": "spinal_44"
@@ -1291,35 +1301,64 @@
             "class": "spinal_44"
         },
         "S44_T6": {
+            "class": "spinal_44"
+        },
+        "S44_T6-1": {
             "models": "ILX:0785909",
-            "name": "Posterior root of sixth thoracic nerve"
+            "name": "posterior root of sixth thoracic nerve"
         },
         "S44_T7": {
+            "class": "spinal_44"
+        },
+        "S44_T7-1": {
             "models": "ILX:0784605",
-            "name": "Posterior root of seventh thoracic nerve"
+            "name": "posterior root of seventh thoracic nerve"
         },
         "S44_T8": {
+            "class": "spinal_44"
+        },
+        "S44_T8-1": {
             "models": "ILX:0792624",
-            "name": "Posterior root of eighth thoracic nerve"
+            "name": "posterior root of eighth thoracic nerve"
         },
         "S44_T9": {
+            "class": "spinal_44"
+        },
+        "S44_T9-1": {
             "models": "ILX:0789741",
-            "name": "Posterior root of ninth thoracic nerve"
+            "name": "posterior root of ninth thoracic nerve"
         },
         "S44_T10": {
+            "class": "spinal_44"
+        },
+        "S44_T10-1": {
             "models": "ILX:0789892",
-            "name": "Posterior root of tenth thoracic nerve"
+            "name": "posterior root of tenth thoracic nerve"
         },
         "S44_T11": {
+            "class": "spinal_44"
+        },
+        "S44_T11-1": {
             "models": "ILX:0790338",
-            "name": "Posterior root of eleventh thoracic nerve"
+            "name": "posterior root of eleventh thoracic nerve"
         },
         "S44_T12": {
+            "class": "spinal_44"
+        },
+        "S44_T12-1":{
             "models": "ILX:0787665",
-            "name": "Posterior root of twelfth thoracic nerve"
+            "name": "posterior root of twelfth thoracic nerve"
         },
         "S44_T13": {
             "class": "spinal_44"
+        },
+        "S44_T13_L": {
+            "models": "ILX:0795050",
+            "name": "Posterior root of left thirteenth thoracic nerve"
+        },
+        "S44_T13_R": {
+            "models": "ILX:0795049",
+            "name": "Posterior root of right thirteenth thoracic nerve"
         },
         "S44_S1": {
             "class": "spinal_44"
@@ -1791,14 +1830,30 @@
         "S50_L1": {
             "class": "spinal_50"
         },
+        "S50_L1-1":{
+            "models": "ILX:0788972",
+            "name": "First lumbar nerve"
+        },
         "S50_L2": {
             "class": "spinal_50"
+        },
+        "S50_L2-1":{
+            "models": "ILX:0786362",
+            "name": "Second lumbar nerve"
         },
         "S50_L3": {
             "class": "spinal_50"
         },
+        "S50_L3-1":{
+            "models": "ILX:0789374",
+            "name": "Third lumbar nerve"
+        },
         "S50_L4": {
             "class": "spinal_50"
+        },
+        "S50_L4-1":{
+            "models": "ILX:0788896",
+            "name": "Fourth lumbar nerve"
         },
         "S50_L5": {
             "class": "spinal_50"
@@ -1809,8 +1864,16 @@
         "S50_S1": {
             "class": "spinal_50"
         },
+        "S50_S1-1":{
+            "models": "ILX:0790504",
+            "name": "First sacral nerve"
+        },
         "S50_S2": {
             "class": "spinal_50"
+        },
+        "S50_S2-1":{
+            "models": "ILX:0787528",
+            "name": "Second sacral nerve"
         },
         "S50_S3": {
             "class": "spinal_50"
@@ -1850,6 +1913,10 @@
         },
         "S50_T12": {
             "class": "spinal_50"
+        },
+        "S50_T12-1": {
+            "models": "ILX:0791046",
+            "name": "Twelfth thoracic nerve"
         },
         "S50_T13": {
             "class": "spinal_50"
@@ -2529,6 +2596,12 @@
         "digestive_44-1": {
             "class": "digestive_44"
         },
+        "digestive_44-2": {
+            "class": "digestive_44"
+        },
+        "digestive_44-3": {
+            "class": "digestive_44"
+        },
         "digestive_45-1": {
             "class": "digestive_45"
         },
@@ -2729,6 +2802,9 @@
         },
         "digestive_91-1": {
             "class": "digestive_91"
+        },
+        "digestive_92-1": {
+            "class": "digestive_92"
         },
         "digestive_9-1": {
             "class": "digestive_9"
@@ -4080,6 +4156,18 @@
         "urinary_17-1": {
             "class": "urinary_17"
         },
+        "urinary_18-1": {
+            "class": "urinary_18"
+        },
+        "urinary_19-1": {
+            "class": "urinary_19"
+        },
+        "urinary_21-1": {
+            "class": "urinary_21"
+        },
+        "urinary_22-1": {
+            "class": "urinary_22"
+        },
         "ganglion_1-1": {
             "models": "UBERON:0005364",
             "name": "superior vagus X ganglion",
@@ -4212,6 +4300,18 @@
             "type": "ganglion",
             "class": "auto-hide"
         },
+        "plexus_19-1": {
+            "models": "ILX:0771304",
+            "name": "Hepatic plexus",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "plexus_20-1": {
+            "models": "ILX:0795011",
+            "name": "periarterial neural plexus of the common hepatic artery",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
         "label_1-1": {
             "label": "dura mater in the posterior cranial fossa",
             "class": "auto-hide"
@@ -4281,6 +4381,18 @@
         },
         "label_23-1": {
             "class": "label_23"
+        },
+        "label_24-1": {
+            "class": "label_24"
+        },
+        "label_25-1": {
+            "class": "label_25"
+        },
+        "label_26-1": {
+            "class": "label_26"
+        },
+        "label_27-1": {
+            "class": "label_27"
         },
         "vagus_1": {
             "type": "nerve",
