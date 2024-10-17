@@ -1479,6 +1479,21 @@
         "id": [
             "ILX:0793769",
             [
+                "UBERON:0000002"
+            ]
+        ],
+        "name": "smooth muscle/uterine cervix",
+        "aliases": [
+            [
+                "ILX:0794768",
+                []
+            ]
+        ]
+    },
+    {
+        "id": [
+            "ILX:0793769",
+            [
                 "UBERON:0009853"
             ]
         ],
