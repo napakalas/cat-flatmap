@@ -2041,8 +2041,8 @@
             "class": "auto-hide"
         },
         "ganglion_22-1": {
-            "models": "ILX:0794733",
-            "name": "Ovarian nerve plexus sympathetic ganglion",
+            "models": "ILX:0794910",
+            "name": "Ovarian ganglion",
             "type": "ganglion",
             "class": "auto-hide"
         },
