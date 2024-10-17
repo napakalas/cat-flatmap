@@ -1878,6 +1878,17 @@
         "S50_S3": {
             "class": "spinal_50"
         },
+        "S50_S3-1": {
+            "models": "ILX:0791971",
+            "name": "Third sacral nerve"
+        },
+        "S50_S4": {
+            "class": "spinal_50"
+        },
+        "S50_S4-1": {
+            "models": "ILX:0792327",
+            "name": "Fourth sacral nerve"
+        },
         "S50_T1": {
             "class": "spinal_50"
         },
@@ -2067,6 +2078,12 @@
         "ganglion_26-1": {
             "models": "ILX:0793833",
             "name": "Ovarian nerve plexus parasympathetic ganglion",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "ganglion_27-1": {
+            "models": "ILX:0795057",
+            "name": "renal nerve plexus ganglion ",
             "type": "ganglion",
             "class": "auto-hide"
         },
