@@ -687,7 +687,7 @@
         "term": "UBERON:0002017",
         "name": "portal vein"
     },
-	"reproductive_1": {
+    "reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"
     },
@@ -1112,11 +1112,11 @@
         "name": "sympathetic trunk"
     },
     "spinal_48": {
-        "term": "FMA:5875",
+        "term": "ILX:0794742",
         "name": "White communicating ramus"
     },
     "spinal_49": {
-        "term": "FMA:5876",
+        "term": "ILX:0794739",
         "name": "Gray communicating ramus"
     },
     "spinal_50": {
@@ -1390,10 +1390,6 @@
     "bolser_22": {
         "term": "UBERON:0009009",
         "name": "carotid sinus nerve"
-    },
-    "bolser_8": {
-        "term": "UBERON:0001650",
-        "name": "hypoglossal nerve"
     },
     "bolser_13": {
         "term": "ILX:0738373",
