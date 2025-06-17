@@ -2210,9 +2210,6 @@
         "bolser_7-1": {
             "class": "bolser_7"
         },
-        "bolser_8-1": {
-            "class": "bolser_8"
-        },
         "brain_10-2": {
             "class": "brain_10"
         },
@@ -4270,7 +4267,7 @@
             "class": "auto-hide"
         },
         "plexus_5-1": {
-            "models": "FMA:6225",
+            "models": "ILX:0793704",
             "name": "esophageal nerve plexus",
             "type": "ganglion",
             "class": "auto-hide"
@@ -4483,7 +4480,7 @@
         },
         "vagus_1": {
             "type": "nerve",
-            "models": "FMA:6232"
+            "models": "ILX:0793829"
         },
         "vagus_2": {
             "type": "nerve",
@@ -4639,7 +4636,7 @@
         },
         "vagus_7": {
             "type": "nerve",
-            "models": "FMA:77213"
+            "models": "ILX:0774697"
         },
         "vagus_8": {
             "type": "nerve",
@@ -4691,7 +4688,7 @@
         },
         "vagus_11": {
             "type": "nerve",
-            "models": "FMA:6231"
+            "models": "ILX:0793828"
         },
         "pharyngeal_vagus_1": {
             "type": "nerve",
@@ -4715,7 +4712,7 @@
         },
         "vagus_14": {
             "type": "nerve",
-            "models": "FMA:6233"
+            "models": "ILX:0793830"
         },
         "phrenic_n": {
             "type": "nerve",
@@ -4979,7 +4976,7 @@
                 },
                 {
                     "id": "gloss_vagus_comm_1",
-                    "models": "FMA:6233",
+                    "models": "ILX:0793830",
                     "connects": [
                         "ganglion_1-1",
                         "gloss_vagus_comm_point"
@@ -4987,7 +4984,7 @@
                 },
                 {
                     "id": "meningeal_vagus_1",
-                    "models": "FMA:6231",
+                    "models": "ILX:0793828",
                     "connects": [
                         "ganglion_1-1",
                         "meningeal_vagus_1_branching_point"
@@ -4995,7 +4992,7 @@
                 },
                 {
                     "id": "auricular_vagus_1",
-                    "models": "FMA:6232",
+                    "models": "ILX:0793829",
                     "connects": [
                         "ganglion_2-1",
                         "AVN_point_1"
@@ -5526,7 +5523,7 @@
                 },
                 {
                     "id": "pancreas_vagus_1",
-                    "models": "FMA:77213",
+                    "models": "ILX:0774697",
                     "connects": [
                         "vagus_point_10",
                         "digestive_9-1"
