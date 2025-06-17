@@ -104,6 +104,9 @@
         "S33_S3": {
             "class": "spinal_33"
         },
+        "S33_S4": {
+            "class": "spinal_33"
+        },
         "S33_T1": {
             "class": "spinal_33"
         },
@@ -192,6 +195,9 @@
             "class": "spinal_34"
         },
         "S34_S3": {
+            "class": "spinal_34"
+        },
+        "S34_S4": {
             "class": "spinal_34"
         },
         "S34_T1": {
@@ -284,6 +290,9 @@
         "S35_S3": {
             "class": "spinal_35"
         },
+        "S35_S4": {
+            "class": "spinal_35"
+        },
         "S35_T1": {
             "class": "spinal_35"
         },
@@ -374,6 +383,9 @@
         "S36_S3": {
             "class": "spinal_36"
         },
+        "S36_S4": {
+            "class": "spinal_36"
+        },
         "S36_T1": {
             "class": "spinal_36"
         },
@@ -462,6 +474,9 @@
             "class": "spinal_37"
         },
         "S37_S3": {
+            "class": "spinal_37"
+        },
+        "S37_S4": {
             "class": "spinal_37"
         },
         "S37_T1": {
@@ -587,6 +602,9 @@
         "S39_S3": {
             "class": "spinal_39"
         },
+        "S39_S4": {
+            "class": "spinal_39"
+        },
         "S39_T1": {
             "class": "spinal_39"
         },
@@ -672,6 +690,12 @@
             "class": "spinal_40"
         },
         "S40_S2": {
+            "class": "spinal_40"
+        },
+        "S40_S3": {
+            "class": "spinal_40"
+        },
+        "S40_S4": {
             "class": "spinal_40"
         },
         "S40_T1": {
@@ -1013,6 +1037,9 @@
         "S41_S3": {
             "class": "spinal_41"
         },
+        "S41_S4": {
+            "class": "spinal_41"
+        },
         "S42_C1": {
             "class": "spinal_42"
         },
@@ -1062,6 +1089,9 @@
             "class": "spinal_42"
         },
         "S42_S3": {
+            "class": "spinal_42"
+        },
+        "S42_S4": {
             "class": "spinal_42"
         },
         "S42_T1": {
@@ -1367,6 +1397,9 @@
             "class": "spinal_44"
         },
         "S44_S3": {
+            "class": "spinal_44"
+        },
+        "S44_S4": {
             "class": "spinal_44"
         },
         "S45_C1": {
@@ -1944,6 +1977,9 @@
         "S51_S3": {
             "class": "spinal_51"
         },
+        "S51_S4": {
+            "class": "spinal_51"
+        },
         "S52_L1": {
             "class": "spinal_51"
         },
@@ -2173,9 +2209,6 @@
         },
         "bolser_7-1": {
             "class": "bolser_7"
-        },
-        "bolser_8-1": {
-            "class": "bolser_8"
         },
         "brain_10-2": {
             "class": "brain_10"
@@ -4234,7 +4267,7 @@
             "class": "auto-hide"
         },
         "plexus_5-1": {
-            "models": "FMA:6225",
+            "models": "ILX:0793704",
             "name": "esophageal nerve plexus",
             "type": "ganglion",
             "class": "auto-hide"
@@ -4447,7 +4480,7 @@
         },
         "vagus_1": {
             "type": "nerve",
-            "models": "FMA:6232"
+            "models": "ILX:0793829"
         },
         "vagus_2": {
             "type": "nerve",
@@ -4603,7 +4636,7 @@
         },
         "vagus_7": {
             "type": "nerve",
-            "models": "FMA:77213"
+            "models": "ILX:0774697"
         },
         "vagus_8": {
             "type": "nerve",
@@ -4655,7 +4688,7 @@
         },
         "vagus_11": {
             "type": "nerve",
-            "models": "FMA:6231"
+            "models": "ILX:0793828"
         },
         "pharyngeal_vagus_1": {
             "type": "nerve",
@@ -4679,7 +4712,7 @@
         },
         "vagus_14": {
             "type": "nerve",
-            "models": "FMA:6233"
+            "models": "ILX:0793830"
         },
         "phrenic_n": {
             "type": "nerve",
@@ -4943,7 +4976,7 @@
                 },
                 {
                     "id": "gloss_vagus_comm_1",
-                    "models": "FMA:6233",
+                    "models": "ILX:0793830",
                     "connects": [
                         "ganglion_1-1",
                         "gloss_vagus_comm_point"
@@ -4951,7 +4984,7 @@
                 },
                 {
                     "id": "meningeal_vagus_1",
-                    "models": "FMA:6231",
+                    "models": "ILX:0793828",
                     "connects": [
                         "ganglion_1-1",
                         "meningeal_vagus_1_branching_point"
@@ -4959,7 +4992,7 @@
                 },
                 {
                     "id": "auricular_vagus_1",
-                    "models": "FMA:6232",
+                    "models": "ILX:0793829",
                     "connects": [
                         "ganglion_2-1",
                         "AVN_point_1"
@@ -5490,7 +5523,7 @@
                 },
                 {
                     "id": "pancreas_vagus_1",
-                    "models": "FMA:77213",
+                    "models": "ILX:0774697",
                     "connects": [
                         "vagus_point_10",
                         "digestive_9-1"
