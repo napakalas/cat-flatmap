@@ -197,9 +197,7 @@
     {
         "id": [
             "ILX:0793233",
-            [
-                "UBERON:0000407"
-            ]
+            []
         ],
         "name": "interganglionic branch of inferior cervical ganglion to first thoracic ganglion/sympathetic trunk",
         "aliases": [
@@ -212,9 +210,7 @@
     {
         "id": [
             "ILX:0793234",
-            [
-                "UBERON:0000407"
-            ]
+            []
         ],
         "name": "interganglionic branch of inferior cervical ganglion to middle cervical ganglion/sympathetic trunk",
         "aliases": [
@@ -1267,7 +1263,7 @@
             []
         ],
         "name": "Ovarian Nerve Plexus",
-        "aliases":[
+        "aliases": [
             [
                 "ILX:0793822",
                 []
@@ -2011,7 +2007,7 @@
             []
         ],
         "name": "Thirteenth thoracic dorsal root ganglion",
-        "aliases":[
+        "aliases": [
             [
                 "ILX:0795052",
                 []
@@ -2028,7 +2024,7 @@
             []
         ],
         "name": "ventral root of the eighth cervical spinal cord segment",
-        "aliases":[
+        "aliases": [
             [
                 "UBERON:0014634",
                 []
@@ -2041,7 +2037,7 @@
             []
         ],
         "name": "renal artery",
-        "aliases":[
+        "aliases": [
             [
                 "ILX:0795058",
                 []
@@ -2058,7 +2054,7 @@
             []
         ],
         "name": "Second sacral nerve",
-        "aliases":[
+        "aliases": [
             [
                 "ILX:0785238",
                 []
@@ -2071,7 +2067,7 @@
             []
         ],
         "name": "Third sacral nerve",
-        "aliases":[
+        "aliases": [
             [
                 "ILX:0788532",
                 []
@@ -2084,7 +2080,7 @@
             []
         ],
         "name": "Fourth sacral nerve",
-        "aliases":[
+        "aliases": [
             [
                 "ILX:0788777",
                 []

@@ -6889,22 +6889,8 @@
                 {
                     "id": "bolser_31",
                     "connects": [
-                        "point_44",
+                        "vagus_point_6",
                         "point_49"
-                    ]
-                },
-                {
-                    "id": "medulla_6",
-                    "connects": [
-                        "brain_11-1",
-                        "point_1"
-                    ]
-                },
-                {
-                    "id": "medulla_7",
-                    "connects": [
-                        "brain_27-1",
-                        "point_1"
                     ]
                 },
                 {
