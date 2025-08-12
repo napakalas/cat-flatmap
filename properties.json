@@ -4843,7 +4843,7 @@
         {
             "id": "neural",
             "type": "nerve",
-            "centrelines": [
+            "no-centrelines": [
                 {
                     "id": "SCG-MCG_sympathetic_cord",
                     "models": "ILX:0738292",
