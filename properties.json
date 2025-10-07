@@ -4018,6 +4018,10 @@
         "nasopalatine_c": {
             "type": "nerve",
             "models": "UBERON:0008810"
+        },
+        "vagosympathetic_c": {
+            "type": "nerve",
+            "models": "ILX:0795507"
         }
     },
     "networks": [
