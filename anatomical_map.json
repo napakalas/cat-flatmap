@@ -687,6 +687,10 @@
         "term": "UBERON:0002017",
         "name": "portal vein"
     },
+    "digestive_93": {
+        "term": "UBERON:0005436",
+        "name": "common hepatic artery"
+    },
     "reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"
