@@ -723,19 +723,6 @@
     },
     {
         "id": [
-            "UBERON:0005303",
-            []
-        ],
-        "name": "hypogastric nerve",
-        "aliases": [
-            [
-                "ILX:0793803",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
             "UBERON:0000992",
             []
         ],
@@ -816,18 +803,9 @@
             [
                 "ILX:0793884",
                 []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0005303",
-            []
-        ],
-        "name": "hypogastric nerve",
-        "aliases": [
+            ],
             [
-                "UBERON:0002014",
+                "ILX:0793803",
                 []
             ]
         ]
