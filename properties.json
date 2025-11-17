@@ -4019,8 +4019,7 @@
         "nasopalatine_c": {
             "type": "nerve",
             "models": "UBERON:0008810"
-        }
-,
+        },
         "superior_laryngeal_19": {
             "type": "nerve"
         },
