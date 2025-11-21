@@ -6,9 +6,6 @@
         "ganglion_7": {
             "label": "ventricular intracardiac ganglion"
         },
-        "ganglion_8": {
-            "label": "mediastinal ganglion"
-        },
         "label_2": {
             "label": "posterior wall of external acoustic meatus"
         },
@@ -3949,7 +3946,8 @@
         },
         "recurrent_laryngeal_17": {
             "type": "nerve",
-            "model-unknown": ""
+            "models": "ILX:0738308",
+            "name": "External branch of inferior laryngeal nerve"
         },
         "glossopharyngeal_4": {
             "type": "nerve",
@@ -4018,6 +4016,33 @@
         "nasopalatine_c": {
             "type": "nerve",
             "models": "UBERON:0008810"
+        },
+        "superior_laryngeal_19": {
+            "type": "nerve"
+        },
+        "superior_laryngeal_20": {
+            "type": "nerve"
+        },
+        "ardell_1_c": {
+            "type": "nerve"
+        },
+        "ardell_4_c": {
+            "type": "nerve"
+        },
+        "ardell_5_c": {
+            "type": "nerve"
+        },
+        "ardell_6_c": {
+            "type": "nerve"
+        },
+        "n_76_c": {
+            "type": "nerve"
+        },
+        "n_77_c": {
+            "type": "nerve"
+        },
+        "bolser_9_c": {
+            "type": "nerve"
         }
     },
     "networks": [
@@ -4623,6 +4648,7 @@
                 },
                 {
                     "id": "RLN_17",
+                    "models": "ILX:0738308",
                     "connects": [
                         "RLN_point_1",
                         "respiratory_11-1"
