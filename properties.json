@@ -3683,7 +3683,7 @@
             "name": "periarterial neural plexus of the common hepatic artery",
             "type": "ganglion",
             "class": "auto-hide"
-        }},
+        },
         "plexus_21-1": {
             "models": "UBERON:8410063",
             "name": "myenteric nerve plexus of small intestine",
