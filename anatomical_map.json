@@ -687,6 +687,10 @@
         "term": "UBERON:0002017",
         "name": "portal vein"
     },
+    "digestive_93": {
+        "term": "ILX:0795342",
+        "name": "upper part of the anal canal"
+    },
     "reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"
