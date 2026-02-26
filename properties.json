@@ -4174,6 +4174,18 @@
             "type": "nerve",
             "models": "UBERON:0008810"
         },
+        "trigeminal_c": {
+            "type": "nerve",
+            "models": "UBERON:0001645"
+        },
+        "penile_cavernous_c": {
+            "type": "nerve",
+            "models": "ILX:0793807"
+        },
+        "cardiac_interganglionic_c": {
+            "type": "nerve",
+            "models": "ILX:0796679"
+        },
         "superior_laryngeal_19": {
             "type": "nerve"
         },
