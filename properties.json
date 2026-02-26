@@ -2071,6 +2071,18 @@
             "type": "ganglion",
             "class": "auto-hide"
         },
+        "ganglion_30-1": {
+            "models": "ILX:0795348",
+            "name": "submucosal nerve plexus ganglion of small intestine",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
+        "ganglion_31-1": {
+            "models": "ILX:0793735",
+            "name": "Myenteric ganglion of small intestine",
+            "type": "ganglion",
+            "class": "auto-hide"
+        },
         "body_6-1": {
             "class": "body_6"
         },
@@ -2577,6 +2589,9 @@
         "digestive_89-1": {
             "class": "digestive_89"
         },
+        "digestive_9-1": {
+            "class": "digestive_9"
+        },
         "digestive_90-1": {
             "class": "digestive_90"
         },
@@ -2589,8 +2604,23 @@
         "digestive_93-1": {
             "class": "digestive_93"
         },
-        "digestive_9-1": {
-            "class": "digestive_9"
+        "digestive_94-1": {
+            "class": "digestive_94"
+        },
+        "digestive_95-1": {
+            "class": "digestive_95"
+        },
+        "digestive_96-1": {
+            "class": "digestive_96"
+        },
+        "digestive_97-1": {
+            "class": "digestive_97"
+        },
+        "digestive_98-1": {
+            "class": "digestive_98"
+        },
+        "digestive_99-1": {
+            "class": "digestive_99"
         },
         "endocrine_1-1": {
             "class": "endocrine_1"

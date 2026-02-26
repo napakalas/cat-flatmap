@@ -691,6 +691,30 @@
         "term": "ILX:0795342",
         "name": "upper part of the anal canal"
     },
+    "digestive_94": {
+        "term": "UBERON:0001902",
+        "name": "epithelium of small intestine"
+    },
+    "digestive_95": {
+        "term": "ILX:0771006",
+        "name": "wall of duodenum"
+    },
+    "digestive_96": {
+        "term": "UBERON:0014390",
+        "name": "muscle layer of ileum"
+    },
+    "digestive_97": {
+        "term": "UBERON:0012377",
+        "name": "muscle layer of jejunum"
+    },
+    "digestive_98": {
+        "term": "ILX:0773238",
+        "name": "Muscle layer of transverse colon"
+    },
+    "digestive_99": {
+        "term": "ILX:0795341",
+        "name": "muscle layer of proximal colon"
+    },
     "reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"
