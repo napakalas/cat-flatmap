@@ -731,6 +731,38 @@
         "term": "UBERON:0004222",
         "name": "stomach smooth muscle"
     },
+    "digestive_104": {
+        "term": "UBERON:8410061",
+        "name": "Longitudinal Muscle Layer of Colon"
+    },
+    "digestive_105": {
+        "term": "UBERON:0012419",
+        "name": "Taenia coli"
+    },
+    "digestive_106": {
+        "term": "UBERON:0003832",
+        "name": "esophagus muscle"
+    },
+    "digestive_107": {
+        "term": "UBERON:0004239",
+        "name": "small intestine smooth muscle"
+    },
+    "digestive_108": {
+        "term": "UBERON:0018111",
+        "name": "muscle layer of rectum"
+    },
+    "digestive_109": {
+        "term": "UBERON:0003354",
+        "name": "anal canal epithelium"
+    },
+    "digestive_110": {
+        "term": "UBERON:0012490",
+        "name": "muscle layer of anal canal"
+    },
+    "digestive_111": {
+        "term": "UBERON:0015716",
+        "name": "epithelium of rectum"
+    },
     "reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"
