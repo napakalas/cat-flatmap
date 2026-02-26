@@ -719,6 +719,18 @@
         "term": "UBERON:0005436",
         "name": "common hepatic artery"
     },
+    "digestive_101": {
+        "term": "UBERON:0011198",
+        "name": "muscle layer of large intestine"
+    },
+    "digestive_102": {
+        "term": "UBERON:0001278",
+        "name": "epithelium of large intestine"
+    },
+    "digestive_103": {
+        "term": "UBERON:0004222",
+        "name": "stomach smooth muscle"
+    },
     "reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"
