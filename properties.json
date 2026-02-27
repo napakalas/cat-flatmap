@@ -2401,6 +2401,9 @@
         "digestive_12-1": {
             "class": "digestive_12"
         },
+        "digestive_13-1": {
+            "class": "digestive_13"
+        },
         "digestive_17-1": {
             "class": "digestive_17"
         },
@@ -2683,6 +2686,9 @@
         "digestive_111-1": {
             "class": "digestive_111"
         },
+        "digestive_112-1": {
+            "class": "digestive_112"
+        },
         "endocrine_1-1": {
             "class": "endocrine_1"
         },
@@ -2851,6 +2857,9 @@
         },
         "reproductive_32-1": {
             "class": "reproductive_32"
+        },
+        "reproductive_33-1": {
+            "class": "reproductive_33"
         },
         "respiratory_10-1": {
             "class": "respiratory_10"

@@ -763,6 +763,10 @@
         "term": "UBERON:0015716",
         "name": "epithelium of rectum"
     },
+    "digestive_112": {
+        "term": "UBERON:0002108",
+        "name": "small intestine"
+    },
     "reproductive_1": {
         "term": "UBERON:0000995",
         "name": "uterus"
@@ -890,6 +894,10 @@
     "reproductive_32": {
         "term": "UBERON:0004713",
         "name": "Corpus cavernosum penis"
+    },
+    "reproductive_33": {
+        "term": "UBERON:0011183",
+        "name": "corpus spongiosum of penis"
     },
     "muscle_1": {
         "term": "ILX:0738319",
