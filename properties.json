@@ -2849,6 +2849,9 @@
         "reproductive_31-1": {
             "class": "reproductive_31"
         },
+        "reproductive_32-1": {
+            "class": "reproductive_32"
+        },
         "respiratory_10-1": {
             "class": "respiratory_10"
         },
@@ -3703,12 +3706,6 @@
             "class": "auto-hide"
         },
         "plexus_24-1": {
-            "models": "ILX:0793704",
-            "name": "Esophageal nerve plexus",
-            "type": "ganglion",
-            "class": "auto-hide"
-        },
-        "plexus_25-1": {
             "models": "ILX:0797430",
             "name": "nerve plexus along the left precaval vein",
             "type": "ganglion",
