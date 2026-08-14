@@ -15,10 +15,6 @@
         "term": "UBERON:0001258",
         "name": "neck of urinary bladder"
     },
-    "urinary_5": {
-        "term": "UBERON:0004919",
-        "name": "external urethral sphincter"
-    },
     "urinary_6": {
         "term": "UBERON:0000483",
         "name": "epithelium"
@@ -56,8 +52,8 @@
         "name": "urethra"
     },
     "urinary_15": {
-        "term": "ILX:0793141",
-        "name": "Urethral Rhabdosphincter"
+        "term": "UBERON:0004919",
+        "name": "external urethral sphincter"
     },
     "urinary_16": {
         "term": "UBERON:0002384",
@@ -350,6 +346,10 @@
     "respiratory_29": {
         "term": "UBERON:0000379",
         "name": "Tracheal Mucosa"
+    },
+    "respiratory_30": {
+        "term": "UBERON:0010061",
+        "name": "lumen of nasopharynx"
     },
     "digestive_1": {
         "term": "UBERON:0001007",
@@ -1279,10 +1279,6 @@
         "term": "ILX:0738292",
         "name": "MCG-SCG sympathetic cord"
     },
-    "spinal_57": {
-        "term": "ILX:0738290",
-        "name": "ICG-MCG sympathetic cord"
-    },
     "spinal_58": {
         "term": "ILX:0738291",
         "name": "T1-ICG sympathetic cord"
@@ -1683,10 +1679,6 @@
         "term": "UBERON:0000033",
         "name": "head"
     },
-    "label_30": {
-        "term": "UBERON:0000167",
-        "name": "oral cavity"
-    },
     "label_31": {
         "term": "UBERON:0002075",
         "name": "viscus"
@@ -1706,6 +1698,10 @@
     "label_35": {
         "term": "UBERON:0001630",
         "name": "muscle organ"
+    },
+    "label_36": {
+        "term": "UBERON:0003729",
+        "name": "mouth mucosa"
     },
     "vagus_n": {
         "term": "UBERON:0001759",

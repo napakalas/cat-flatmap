@@ -2501,6 +2501,9 @@
         "digestive_26-1": {
             "class": "digestive_26"
         },
+        "digestive_27-1": {
+            "class": "digestive_27"
+        },
         "digestive_31-1": {
             "class": "digestive_31"
         },
@@ -2774,6 +2777,10 @@
         "digestive_117-1": {
             "class": "digestive_117"
         },
+        "digestive_118-1": {
+            "models": "UBERON:0009959",
+            "name": "oropharynx lumen"
+        },
         "digestive_119-1": {
             "models": "UBERON:0001172",
             "name": "hepatic acinus"
@@ -2992,6 +2999,9 @@
         "respiratory_12-1": {
             "class": "respiratory_12"
         },
+        "respiratory_13-1": {
+            "class": "respiratory_13"
+        },
         "respiratory_14-1": {
             "class": "respiratory_14"
         },
@@ -3048,6 +3058,9 @@
         },
         "respiratory_3-1": {
             "class": "respiratory_3"
+        },
+        "respiratory_30-1": {
+            "class": "respiratory_30"
         },
         "respiratory_4-1": {
             "class": "respiratory_4"
@@ -4010,9 +4023,6 @@
         "label_29-1": {
             "class": "label_29"
         },
-        "label_30-1": {
-            "class": "label_30"
-        },
         "label_31-1": {
             "class": "label_31"
         },
@@ -4027,6 +4037,13 @@
         },
         "label_35-1": {
             "class": "label_35"
+        },
+        "label_36-1": {
+            "class": "label_36"
+        },
+        "urethral_sphincter": {
+            "models": "UBERON:0004917",
+            "name": "urethral sphincter"
         },
         "CNVII_c": {
             "type": "nerve",
@@ -4355,11 +4372,11 @@
         },
         "ICG-T1_sympathetic_cord_c": {
             "type": "nerve",
-            "models": "ILX:0793233"
+            "models": "ILX:0738291"
         },
         "MCG-ICG_sympathetic_cord_c": {
             "type": "nerve",
-            "models": "ILX:0793234"
+            "models": "ILX:0738290"
         },
         "lacrimal_zygomatic_c": {
             "type": "nerve",
@@ -4404,6 +4421,10 @@
         "trigeminal_c": {
             "type": "nerve",
             "models": "UBERON:0001645"
+        },
+        "vagosymp_c": {
+            "type": "nerve",
+            "models": "ILX:0795507"
         },
         "penile_cavernous_c": {
             "type": "nerve",
@@ -4517,7 +4538,7 @@
                 },
                 {
                     "id": "MCG-ICG_sympathetic_cord",
-                    "models": "ILX:0793234",
+                    "models": "ILX:0738290",
                     "connects": [
                         "ganglion_9-1",
                         "ganglion_10-1"
@@ -4525,7 +4546,7 @@
                 },
                 {
                     "id": "ICG-T1_sympathetic_cord",
-                    "models": "ILX:0793233",
+                    "models": "ILX:0738291",
                     "connects": [
                         "ganglion_10-1",
                         "S46_T1"
