@@ -22774,6 +22774,9 @@
             </g>
             <g>
                 <title>glosspharyngeal_cuffs</title>
+                <path fill="none" stroke="#595959" stroke-dasharray="3,3" d="M 1158.46 1011.91 C 1157.13 1011.3 1153.16 1009.41 1155.5 1004.66 C 1157.85 999.914 1167.09 999.16 1170.41 1004.7 C 1173.73 1010.24 1168.75 1011.54 1168.66 1011.64" style="stroke-width: 1;">
+                    <title>.id(glossopharyngeal_1)</title>
+                </path>
                 <path fill="none" stroke="#595959" stroke-dasharray="3,3" d="M 1424.81 1386.85 C 1423.48 1387.39 1419.51 1389.04 1421.85 1393.19 C 1424.2 1397.35 1433.44 1398.01 1436.76 1393.16 C 1440.08 1388.31 1435.1 1387.18 1435.01 1387.09" style="stroke-width: 1;">
                     <title>.id(glossopharyngeal_2)</title>
                 </path>
