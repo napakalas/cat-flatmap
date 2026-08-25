@@ -1,18 +1,18 @@
 [
     {
         "id": [
-            "UBERON:0016578",
-            [
-                "UBERON:0006457"
-            ]
+            "ILX:0738371",
+            []
         ],
         "aliases": [
             [
-                "ILX:0738371",
-                []
+                "UBERON:0016578",
+                [
+                    "UBERON:0006457"
+                ]
             ]
         ],
-        "name": "lamina VII of gray matter of spinal cord / T1 segment of thoracic spinal cord"
+        "name": "Rexed Lamina VII of T1"
     },
     {
         "id": [
@@ -654,21 +654,6 @@
     },
     {
         "id": [
-            "UBERON:0001981",
-            [
-                "UBERON:0000996"
-            ]
-        ],
-        "name": "blood vessel/vagina",
-        "aliases": [
-            [
-                "ILX:0794734",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
             "UBERON:0002411",
             []
         ],
@@ -710,21 +695,6 @@
         "aliases": [
             [
                 "UBERON:0009675",
-                []
-            ]
-        ]
-    },
-    {
-        "id": [
-            "UBERON:0001981",
-            [
-                "UBERON:0000995"
-            ]
-        ],
-        "name": "blood vessel/uterus",
-        "aliases": [
-            [
-                "ILX:0794737",
                 []
             ]
         ]
